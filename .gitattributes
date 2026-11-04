@@ -1,0 +1,10 @@
+*.py -text
+*.md text eol=lf
+*.json -text
+*.yml text eol=lf
+*.cff text eol=lf
+# Preserve CSV values/bytes and source file hashes on checkout.
+*.csv -text
+*.txt -text
+*.bat -text
+*.ps1 -text
