@@ -1,0 +1,27 @@
+{
+  "status": "completed",
+  "contract_hash": "4d50b12f944591252c4b4ca035d6c5aad54d509c0f010827e9d54ccc73543a5e",
+  "elapsed_seconds": 5587.5055313999765,
+  "validation_best": 0.8969128812943689,
+  "peak_cuda_memory_gib": 0.3160405158996582,
+  "parameter_count": 3712036,
+  "synthetic": false,
+  "micro_batch": 2,
+  "effective_batch": 4,
+  "numerical_precision": {
+    "policy_version": "1.4",
+    "method": "segformer_b0",
+    "requested_amp": true,
+    "active_precision": "float32",
+    "evaluation_precision": "float32",
+    "precision_history": [
+      {
+        "epoch": 1,
+        "update": 1,
+        "precision": "float32",
+        "source": "runtime_policy_1.4"
+      }
+    ],
+    "reason": "SegFormer FP32 numerical safeguard"
+  }
+}

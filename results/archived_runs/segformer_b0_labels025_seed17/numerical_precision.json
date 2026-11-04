@@ -1,0 +1,22 @@
+{
+  "policy_version": "1.4",
+  "method": "segformer_b0",
+  "requested_amp": true,
+  "active_precision": "float32",
+  "evaluation_precision": "float32",
+  "precision_history": [
+    {
+      "epoch": 1,
+      "update": 1,
+      "precision": "float16_amp",
+      "source": "legacy_checkpoint_scaler_state"
+    },
+    {
+      "epoch": 88,
+      "update": 51,
+      "precision": "float32",
+      "source": "runtime_policy_1.4"
+    }
+  ],
+  "reason": "SegFormer FP32 numerical safeguard"
+}

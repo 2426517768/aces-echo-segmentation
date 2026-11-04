@@ -1,0 +1,7 @@
+{
+  "source_split": "validation_only",
+  "checkpoint_epoch": 70,
+  "previous_validation_dice": 0.8673069232525686,
+  "fp32_validation_dice": 0.8673001788449279,
+  "model_weights_changed": false
+}

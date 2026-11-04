@@ -1,0 +1,36 @@
+{
+  "batch_size": 1,
+  "warmup": 50,
+  "repetitions": 200,
+  "median_ms": 5.247149965725839,
+  "p95_ms": 6.1051100376062095,
+  "scope": "model forward only; no preprocessing or IO or robot control",
+  "hardware": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+    "os": "Windows-11-10.0.26300-SP0",
+    "torch": "2.7.1+cu128",
+    "numpy": "1.26.4",
+    "cuda_build": "12.8",
+    "cuda_available": true,
+    "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "gpu_memory_gib": 7.96,
+    "capability": [
+      12,
+      0
+    ],
+    "compiled_arches": [
+      "sm_50",
+      "sm_60",
+      "sm_61",
+      "sm_70",
+      "sm_75",
+      "sm_80",
+      "sm_86",
+      "sm_90",
+      "sm_100",
+      "sm_120"
+    ],
+    "nvidia_smi": "NVIDIA GeForce RTX 5060 Laptop GPU, 596.56, 8151 MiB"
+  },
+  "synthetic": false
+}
