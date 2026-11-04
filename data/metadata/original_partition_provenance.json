@@ -1,0 +1,14 @@
+[
+  {
+    "filename": "subgroup_training.txt",
+    "sha256": "bceacf9c804bd64a6b555e1c9d10db4fbaeda0c8aa764b9ac54071207a02bc6b"
+  },
+  {
+    "filename": "subgroup_validation.txt",
+    "sha256": "1078b246127e15ef3f1a0838699f64a9c2b18071b3883957edb70b475f2b9fac"
+  },
+  {
+    "filename": "subgroup_testing.txt",
+    "sha256": "29defd985d96fd4d5c8e16f02d770d337dfa9341ce6125ad9cbdac6c82499c0a"
+  }
+]

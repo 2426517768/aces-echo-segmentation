@@ -1,0 +1,2551 @@
+{
+  "schema": 1,
+  "recorded_manifest_digest": "e8fb5d3a3bda28c4c5b40716d99a1c8cac581f4739e02b99763c0dcc153cecc2",
+  "files": [
+    {
+      "path": "CHECK_GPU.bat",
+      "bytes": 222,
+      "sha256": "d4e964b5eaac050b4db8a481310e0ab7331b9e18dd7b011752ce38e58626d79a"
+    },
+    {
+      "path": "DOWNLOAD_CAMUS.bat",
+      "bytes": 370,
+      "sha256": "8839969c7f5800a96ba4f129c52d066f6b4bd04efc65cf4d549e8eef8e755089"
+    },
+    {
+      "path": "EVALUATE_ONLY.bat",
+      "bytes": 224,
+      "sha256": "9a1451fc5098470a85ded239bd2de329a2155f332dd959e2fb27f3860ee5ae36"
+    },
+    {
+      "path": "PREPARE_DATA.bat",
+      "bytes": 223,
+      "sha256": "e9b99e29524374fb78f752739510ac204d8094734586668e60490eb1a9685b34"
+    },
+    {
+      "path": "REPRODUCE_RESULTS.bat",
+      "bytes": 649,
+      "sha256": "6535c1d655e7b9c3200400fe88ef0de121a762b8d4094405f5094dc7eca16242"
+    },
+    {
+      "path": "RUN_ALL.bat",
+      "bytes": 221,
+      "sha256": "b1d9422c04e69293823cb7dab72de7c50258a552cc6dda5c0a0714c6c26b4948"
+    },
+    {
+      "path": "RUN_TESTS.bat",
+      "bytes": 185,
+      "sha256": "78a61584cc4df22aa227a6ab74c5afd72acf6ea1c1b7e5c63efe5fec6e9011dd"
+    },
+    {
+      "path": "SMOKE_TEST.bat",
+      "bytes": 221,
+      "sha256": "868af9eb17ea75c9933da42e1206f9782d24c217c767588e8aec0820b4f4beeb"
+    },
+    {
+      "path": "START.bat",
+      "bytes": 220,
+      "sha256": "4d554441785531c306318b02d7b10f1b90e96f5b52e26885c1a02d70f292b694"
+    },
+    {
+      "path": "aces/__init__.py",
+      "bytes": 103,
+      "sha256": "196175f48aef05c45226123be2cfe83a92c92094d40c48b53500b55c5dad9d3c"
+    },
+    {
+      "path": "aces/cli.py",
+      "bytes": 4410,
+      "sha256": "683d864e87b0d59c603351a77e21c46514a8ad60e8e815e809ecfa70ad6d5b3b"
+    },
+    {
+      "path": "aces/data.py",
+      "bytes": 24628,
+      "sha256": "39d6599d37b360e126ab73ec872c439c50cd82563753a06fadf98db4ad6b7893"
+    },
+    {
+      "path": "aces/engine.py",
+      "bytes": 26715,
+      "sha256": "dc3d2020dc4319dae99c20f7124da9a5f2ab3f2cafd030a5347483b097d16690"
+    },
+    {
+      "path": "aces/losses.py",
+      "bytes": 3647,
+      "sha256": "a2004229419ac5062f36c441bcd4bd5860c1baa72f358743a288c1bb597f8b29"
+    },
+    {
+      "path": "aces/metrics.py",
+      "bytes": 6897,
+      "sha256": "528f348f82227a56d998b2996a0a4efded1ae816f3a3de5c8f3353decded31e8"
+    },
+    {
+      "path": "aces/models.py",
+      "bytes": 6057,
+      "sha256": "cbe97929efb1e5030333bd394386425fbb109cbc2643d86d7ee88e2e2d6c230d"
+    },
+    {
+      "path": "aces/numerics.py",
+      "bytes": 3559,
+      "sha256": "ad22e2acdde8659ffa381f126b12ee6ed20af8ec6acfe37b480f7442497218e2"
+    },
+    {
+      "path": "aces/prior.py",
+      "bytes": 3784,
+      "sha256": "030942d85308460c8046ba85164efc31bf049bb1da5dcbb2722b3e1fb9160c2d"
+    },
+    {
+      "path": "aces/report.py",
+      "bytes": 4867,
+      "sha256": "f6ebc1215204134d1b70b90ed8aa4f19502fae44208e1f90dbd825ef7c9ee866"
+    },
+    {
+      "path": "aces/synthetic.py",
+      "bytes": 1805,
+      "sha256": "c5322c3a82a0a7ade75bce78ce740e69cd41ccca86fe34ad0adc3054df14963f"
+    },
+    {
+      "path": "aces/utils.py",
+      "bytes": 3861,
+      "sha256": "843d336aefe78fe7255ad1b147003425942aaf8818799061cd9bf4ff63d0141b"
+    },
+    {
+      "path": "bootstrap.ps1",
+      "bytes": 5150,
+      "sha256": "3ffa6427ce89f8686bc3790bf4ca380a235ee18995c236ad7b732e048df4600d"
+    },
+    {
+      "path": "configs/recorded_settings.json",
+      "bytes": 1520,
+      "sha256": "3976d39a045cbbcd063851af01019ebd03105c3910917183ac429861941dc10d"
+    },
+    {
+      "path": "data/DATA_DICTIONARY.md",
+      "bytes": 4346,
+      "sha256": "dbc7303df2378d25111280db253921dde1339c42152f3483b328c01e71e2ba63"
+    },
+    {
+      "path": "data/hmc_qu/external_manifest.template.csv",
+      "bytes": 295,
+      "sha256": "6748a55dccf454cfb883e9b84afb57f70c945d05050ac4d0e394d1d20b121a05"
+    },
+    {
+      "path": "data/metadata/dataset_audit_snapshot.json",
+      "bytes": 11842,
+      "sha256": "18fd29fa82fa2142293961acf8cf399f08dd0c0035cc070bfa2e75e76c499ea0"
+    },
+    {
+      "path": "data/metadata/manifest_snapshot.json",
+      "bytes": 5050037,
+      "sha256": "c3fd2ba69395639a604042491b756455e5b522dcc051d7d7057b6f6cbb78ac92"
+    },
+    {
+      "path": "data/metadata/original_partition_provenance.json",
+      "bytes": 397,
+      "sha256": "b0a856b2a48d076856f6e281be73f52c4094c6509b135ad379c62cdcba9151b5"
+    },
+    {
+      "path": "data/splits/annotation_budgets.json",
+      "bytes": 9532,
+      "sha256": "a189f87445e0a44c11b79e7ef69c693db17ef471cb2d6dd4d2673fae38a0ea26"
+    },
+    {
+      "path": "data/splits/camus_patients.json",
+      "bytes": 9551,
+      "sha256": "72cfb507928b531a1a1b90e59704f8f6a74ec302e8b12e99230f4c814077480a"
+    },
+    {
+      "path": "data/splits/labeled_025_patients.txt",
+      "bytes": 1200,
+      "sha256": "e05013f289496c76bb2ab7690d177fcbe59f704e133bc00625e1fad538d0460c"
+    },
+    {
+      "path": "data/splits/labeled_100_patients.txt",
+      "bytes": 4800,
+      "sha256": "bceacf9c804bd64a6b555e1c9d10db4fbaeda0c8aa764b9ac54071207a02bc6b"
+    },
+    {
+      "path": "data/splits/test_patients.txt",
+      "bytes": 600,
+      "sha256": "29defd985d96fd4d5c8e16f02d770d337dfa9341ce6125ad9cbdac6c82499c0a"
+    },
+    {
+      "path": "data/splits/train_patients.txt",
+      "bytes": 4800,
+      "sha256": "bceacf9c804bd64a6b555e1c9d10db4fbaeda0c8aa764b9ac54071207a02bc6b"
+    },
+    {
+      "path": "data/splits/val_patients.txt",
+      "bytes": 600,
+      "sha256": "1078b246127e15ef3f1a0838699f64a9c2b18071b3883957edb70b475f2b9fac"
+    },
+    {
+      "path": "download_public.py",
+      "bytes": 22105,
+      "sha256": "de7777f09cb28637b6b05c172baeebb5d2eaee3c273c0cf8b5fa340a4a1b7033"
+    },
+    {
+      "path": "launcher.py",
+      "bytes": 10512,
+      "sha256": "24168af20c5fc04cbcb5782560978498e1bbae4df37ddc34bb6aff9a69c37f86"
+    },
+    {
+      "path": "requirements-analysis.txt",
+      "bytes": 77,
+      "sha256": "dd7751abefea2b560aa38b40630bee2f360edc79437af34641b607f8f9a934d3"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 188,
+      "sha256": "34527cd1824e89a8dc501f54103e1dc0eabe592714dd40be5ca22a3a5f4b3e3f"
+    },
+    {
+      "path": "results/archived_runs/aces_labels025_seed17/anatomical_prior.json",
+      "bytes": 3072,
+      "sha256": "44f5eaa21e939d528ccd543bd12002324f5758d9071301af950e308dbc6f1105"
+    },
+    {
+      "path": "results/archived_runs/aces_labels025_seed17/annotation_budget.json",
+      "bytes": 2138,
+      "sha256": "adc0a0a88296b425f229f5b127f45d34a6fb27ef5e771db8ea5f3b90d1f1ce49"
+    },
+    {
+      "path": "results/archived_runs/aces_labels025_seed17/contract.json",
+      "bytes": 2810,
+      "sha256": "08c0a1da7c72b21f9b3bb662c0ef24b93b4d76f2c51d6dfb0567c62b8b89359e"
+    },
+    {
+      "path": "results/archived_runs/aces_labels025_seed17/hardware.json",
+      "bytes": 601,
+      "sha256": "fb0794b93a4c8758117d44d12f324c433e03738e9a190762dbb8833537f0d6d7"
+    },
+    {
+      "path": "results/archived_runs/aces_labels025_seed17/history.csv",
+      "bytes": 17658,
+      "sha256": "4bcb7ef547fc13d72eca6dc27ec8483c29d6866437679eeff688a77d8ef359be"
+    },
+    {
+      "path": "results/archived_runs/aces_labels025_seed17/latency.json",
+      "bytes": 900,
+      "sha256": "80b494435b57ff59aac9cec57e1b6ebff027c4301f76dc0de591019e7d090817"
+    },
+    {
+      "path": "results/archived_runs/aces_labels025_seed17/temperature.json",
+      "bytes": 481,
+      "sha256": "bc6a19480452c9e12c66eddc2c3723f29f9f53f4a048f0b8965213e363bef6c1"
+    },
+    {
+      "path": "results/archived_runs/aces_labels025_seed17/test/evaluation_identity.json",
+      "bytes": 221,
+      "sha256": "33891711bcf09d5b1a02c51b25fe399b80a3f3ee1885b86c13a1159d73ce3e2e"
+    },
+    {
+      "path": "results/archived_runs/aces_labels025_seed17/test/per_frame_class.csv",
+      "bytes": 85696,
+      "sha256": "07dce8f14cd576a49f3c2fc520fbbb400d094bc455899ef64b8c1e6cecea33e6"
+    },
+    {
+      "path": "results/archived_runs/aces_labels025_seed17/test/per_patient.csv",
+      "bytes": 4742,
+      "sha256": "a81974f3242b52303f08971d5bb6d42ab3d3c3e524d7b4faa74175692d81d44c"
+    },
+    {
+      "path": "results/archived_runs/aces_labels025_seed17/test/per_patient_class.csv",
+      "bytes": 14437,
+      "sha256": "6e53bff5fe39ebf43ac24e224cb10a0fc1e2216d8e0a8f3fcc94a3e4d53494b1"
+    },
+    {
+      "path": "results/archived_runs/aces_labels025_seed17/test/stratified.csv",
+      "bytes": 1137,
+      "sha256": "f2465a1bf95a1dc4e3a83725d329a2b6f9586804c99bf64bf05d264da878ebc2"
+    },
+    {
+      "path": "results/archived_runs/aces_labels025_seed17/test/summary.json",
+      "bytes": 4284,
+      "sha256": "6559e0e7747534bc93019ed83e367ce096f02be8abf0f1597425e59d2842e062"
+    },
+    {
+      "path": "results/archived_runs/aces_labels025_seed17/training_complete.json",
+      "bytes": 348,
+      "sha256": "1a098d89c437127cc74b6fb1ad6dc34023bd854972314734037f5d1260650091"
+    },
+    {
+      "path": "results/archived_runs/aces_labels025_seed29/anatomical_prior.json",
+      "bytes": 3072,
+      "sha256": "44f5eaa21e939d528ccd543bd12002324f5758d9071301af950e308dbc6f1105"
+    },
+    {
+      "path": "results/archived_runs/aces_labels025_seed29/annotation_budget.json",
+      "bytes": 2138,
+      "sha256": "adc0a0a88296b425f229f5b127f45d34a6fb27ef5e771db8ea5f3b90d1f1ce49"
+    },
+    {
+      "path": "results/archived_runs/aces_labels025_seed29/contract.json",
+      "bytes": 2810,
+      "sha256": "0e7b6c6b2f050530f05fe89958c02febfbc50b25e39a794437442592314f6812"
+    },
+    {
+      "path": "results/archived_runs/aces_labels025_seed29/hardware.json",
+      "bytes": 601,
+      "sha256": "fb0794b93a4c8758117d44d12f324c433e03738e9a190762dbb8833537f0d6d7"
+    },
+    {
+      "path": "results/archived_runs/aces_labels025_seed29/history.csv",
+      "bytes": 17646,
+      "sha256": "54c3cb6bf212449e70517e30e9a56527e0dbe07ab6e9226b995550682fd9ab9f"
+    },
+    {
+      "path": "results/archived_runs/aces_labels025_seed29/latency.json",
+      "bytes": 939,
+      "sha256": "2256f55262697ea61ee60c147146410b74deefafbd2ae2b270e077786f7f9aaf"
+    },
+    {
+      "path": "results/archived_runs/aces_labels025_seed29/temperature.json",
+      "bytes": 481,
+      "sha256": "1e25b2f8658f681bf7cf54f571dea933b9fc0b6a740642037984a67a9f969e0b"
+    },
+    {
+      "path": "results/archived_runs/aces_labels025_seed29/test/evaluation_identity.json",
+      "bytes": 220,
+      "sha256": "c4df21a409b8797a3a9bbd2deb008952cf1c6022b2e9badd3f9ebe9c9898d7ba"
+    },
+    {
+      "path": "results/archived_runs/aces_labels025_seed29/test/per_frame_class.csv",
+      "bytes": 85672,
+      "sha256": "0eec5f6b04384d8efcefe04be2e6a379cb690986308587ac0c8b02a9ffe135f6"
+    },
+    {
+      "path": "results/archived_runs/aces_labels025_seed29/test/per_patient.csv",
+      "bytes": 4746,
+      "sha256": "e55acafbc87977ccccd2accc40e824c03cd851fbbff034d7672cf3c44a854c4f"
+    },
+    {
+      "path": "results/archived_runs/aces_labels025_seed29/test/per_patient_class.csv",
+      "bytes": 14443,
+      "sha256": "817489a0b54450ed6c4f768d25ea14e3cc28e8353aba5444e0d8cc387e001334"
+    },
+    {
+      "path": "results/archived_runs/aces_labels025_seed29/test/stratified.csv",
+      "bytes": 1130,
+      "sha256": "b64a413795c44313fcf8855eed108dd4dc6e7443c7c95b64ae68326625974e9c"
+    },
+    {
+      "path": "results/archived_runs/aces_labels025_seed29/test/summary.json",
+      "bytes": 4714,
+      "sha256": "09a0e8639863edd9b02de37918ba07b262ff2347900f1ed78173192197aad27a"
+    },
+    {
+      "path": "results/archived_runs/aces_labels025_seed29/training_complete.json",
+      "bytes": 347,
+      "sha256": "ed5ef4623ca9254a0580564efed539f82522fc807a05acc4cd2ac63a794a1bd7"
+    },
+    {
+      "path": "results/archived_runs/aces_labels025_seed43/anatomical_prior.json",
+      "bytes": 3072,
+      "sha256": "44f5eaa21e939d528ccd543bd12002324f5758d9071301af950e308dbc6f1105"
+    },
+    {
+      "path": "results/archived_runs/aces_labels025_seed43/annotation_budget.json",
+      "bytes": 2138,
+      "sha256": "adc0a0a88296b425f229f5b127f45d34a6fb27ef5e771db8ea5f3b90d1f1ce49"
+    },
+    {
+      "path": "results/archived_runs/aces_labels025_seed43/contract.json",
+      "bytes": 2810,
+      "sha256": "5cafe261d0d653687b78ed928831ff5b39139f104e081983f4b6fe11a2750273"
+    },
+    {
+      "path": "results/archived_runs/aces_labels025_seed43/hardware.json",
+      "bytes": 601,
+      "sha256": "fb0794b93a4c8758117d44d12f324c433e03738e9a190762dbb8833537f0d6d7"
+    },
+    {
+      "path": "results/archived_runs/aces_labels025_seed43/history.csv",
+      "bytes": 17644,
+      "sha256": "3bfc0b2c6ca50a46181600535c3b22d5ccdbe2e100915ab25e0c563d93a297e9"
+    },
+    {
+      "path": "results/archived_runs/aces_labels025_seed43/latency.json",
+      "bytes": 940,
+      "sha256": "0e7fa9181498032ceac517abe130a932bfca2369c86f3a6204f436c8d3886a96"
+    },
+    {
+      "path": "results/archived_runs/aces_labels025_seed43/temperature.json",
+      "bytes": 481,
+      "sha256": "2d40bf51b7b948c442731a00d46dad7e09cc0d3997fe48a7666af4a523207a62"
+    },
+    {
+      "path": "results/archived_runs/aces_labels025_seed43/test/evaluation_identity.json",
+      "bytes": 221,
+      "sha256": "47327aadbe65e7bc1c801b89a6bb46742bd45fac548fdc9c70ba180e8a533bb5"
+    },
+    {
+      "path": "results/archived_runs/aces_labels025_seed43/test/per_frame_class.csv",
+      "bytes": 85620,
+      "sha256": "96313988396ada9af30824947977adb00d1d7e7dfedd7168aa5305de918cb54f"
+    },
+    {
+      "path": "results/archived_runs/aces_labels025_seed43/test/per_patient.csv",
+      "bytes": 4757,
+      "sha256": "72a11c85fd4fc6a3669c6f4991e9512b97fe3de0623b5ec12c954c851a2bf387"
+    },
+    {
+      "path": "results/archived_runs/aces_labels025_seed43/test/per_patient_class.csv",
+      "bytes": 14450,
+      "sha256": "e2def406401eba0c40d98839442b8ef9e47a32865b33fde465c1742cf8b831d9"
+    },
+    {
+      "path": "results/archived_runs/aces_labels025_seed43/test/stratified.csv",
+      "bytes": 1129,
+      "sha256": "445c2a3b1b1157ad67ab8d588ac744bc459161ee2130e11e41e21ba0af56737f"
+    },
+    {
+      "path": "results/archived_runs/aces_labels025_seed43/test/summary.json",
+      "bytes": 4687,
+      "sha256": "bba9fa482318a976f782eb5f32e1f2cea6cc3ae8d4657c06adb8b8852fb8eb8c"
+    },
+    {
+      "path": "results/archived_runs/aces_labels025_seed43/training_complete.json",
+      "bytes": 346,
+      "sha256": "5e267ac519c920d6bdd7111b6ba7385603b0569a02c715e02fba368fbe175e97"
+    },
+    {
+      "path": "results/archived_runs/aces_labels100_seed17/anatomical_prior.json",
+      "bytes": 9070,
+      "sha256": "44729cda9c44a5a9f9264be0d80b87716a9c0df57e0725a4a1b79d757e0c1bca"
+    },
+    {
+      "path": "results/archived_runs/aces_labels100_seed17/annotation_budget.json",
+      "bytes": 8139,
+      "sha256": "b11be6462014ca29e0530804f918ef9ccb0ac63f5693db65ef79ca7ee4008b14"
+    },
+    {
+      "path": "results/archived_runs/aces_labels100_seed17/contract.json",
+      "bytes": 8809,
+      "sha256": "08e0421d35ed3ca8b85215d4c008eda3911358fe36bf9cdfb3a67d2005a65da5"
+    },
+    {
+      "path": "results/archived_runs/aces_labels100_seed17/hardware.json",
+      "bytes": 601,
+      "sha256": "fb0794b93a4c8758117d44d12f324c433e03738e9a190762dbb8833537f0d6d7"
+    },
+    {
+      "path": "results/archived_runs/aces_labels100_seed17/history.csv",
+      "bytes": 17624,
+      "sha256": "734b37f17f7d78fba872614260d4fc69f73855d9b5c84edd56a0e91d695bf37e"
+    },
+    {
+      "path": "results/archived_runs/aces_labels100_seed17/latency.json",
+      "bytes": 939,
+      "sha256": "4473f6e608beb843783a93807ad036ca766d500ebf12ba9df8f63c93416c5768"
+    },
+    {
+      "path": "results/archived_runs/aces_labels100_seed17/temperature.json",
+      "bytes": 481,
+      "sha256": "d4ade729385c7dd87bb76258d1072d0a983297cc96a1873fa32c2dfd3057e3d4"
+    },
+    {
+      "path": "results/archived_runs/aces_labels100_seed17/test/evaluation_identity.json",
+      "bytes": 220,
+      "sha256": "e725dea80441e192f6db750b35dca8cd78cada4ffd2b688d3c22f66fb047c44d"
+    },
+    {
+      "path": "results/archived_runs/aces_labels100_seed17/test/per_frame_class.csv",
+      "bytes": 85708,
+      "sha256": "4db31e8581075a0f31ac05d1245c49eba838716d115a6e4150ce93a898b6a311"
+    },
+    {
+      "path": "results/archived_runs/aces_labels100_seed17/test/per_patient.csv",
+      "bytes": 4768,
+      "sha256": "37c159c5907c147caf846f6ea36dc3645af5e44d8fcaa76a4b7d4d891a3ebe1e"
+    },
+    {
+      "path": "results/archived_runs/aces_labels100_seed17/test/per_patient_class.csv",
+      "bytes": 14462,
+      "sha256": "5053ee1b4292a6c03752d59f31a33058f2dd8e7f7f14f1ac9b53acd49321cd29"
+    },
+    {
+      "path": "results/archived_runs/aces_labels100_seed17/test/stratified.csv",
+      "bytes": 1138,
+      "sha256": "d2b271fe3d7a03feb8c436ff2711899675cb8dd073304f3e8a76e6960eb9210c"
+    },
+    {
+      "path": "results/archived_runs/aces_labels100_seed17/test/summary.json",
+      "bytes": 4741,
+      "sha256": "5c24bfd806d356a00a3eff9258bf2b33b9bd3530b7eff4a73ec4cada1e81d369"
+    },
+    {
+      "path": "results/archived_runs/aces_labels100_seed17/training_complete.json",
+      "bytes": 347,
+      "sha256": "4436a01fd5dc965b7bd4e12aab8c8ed427411caf8723e2b25c8b0fe6502b0aa9"
+    },
+    {
+      "path": "results/archived_runs/aces_labels100_seed29/anatomical_prior.json",
+      "bytes": 9070,
+      "sha256": "44729cda9c44a5a9f9264be0d80b87716a9c0df57e0725a4a1b79d757e0c1bca"
+    },
+    {
+      "path": "results/archived_runs/aces_labels100_seed29/annotation_budget.json",
+      "bytes": 8139,
+      "sha256": "b11be6462014ca29e0530804f918ef9ccb0ac63f5693db65ef79ca7ee4008b14"
+    },
+    {
+      "path": "results/archived_runs/aces_labels100_seed29/contract.json",
+      "bytes": 8809,
+      "sha256": "c62042c4cd96936c404821806cd114430a674b295aaecc3b7921809e42f6e61f"
+    },
+    {
+      "path": "results/archived_runs/aces_labels100_seed29/hardware.json",
+      "bytes": 601,
+      "sha256": "fb0794b93a4c8758117d44d12f324c433e03738e9a190762dbb8833537f0d6d7"
+    },
+    {
+      "path": "results/archived_runs/aces_labels100_seed29/history.csv",
+      "bytes": 17610,
+      "sha256": "e41a9364bc8026fadfa166b57341ebef4aeeb6df4756567b4c34b7bf6e0c36fc"
+    },
+    {
+      "path": "results/archived_runs/aces_labels100_seed29/latency.json",
+      "bytes": 940,
+      "sha256": "e8969f569730cbd6f27d6d567fe9bd0ff631d6e4f3a1c27a5809979057701ea4"
+    },
+    {
+      "path": "results/archived_runs/aces_labels100_seed29/temperature.json",
+      "bytes": 482,
+      "sha256": "5d89b6a6bc3ddbc9d18b25c1f2d87049ccdc652a9a4177548dc14058212b68d8"
+    },
+    {
+      "path": "results/archived_runs/aces_labels100_seed29/test/evaluation_identity.json",
+      "bytes": 221,
+      "sha256": "093010fcf659152e9967254f448eda7e63ccc7ab3f1398f4c463e0b66414d5b1"
+    },
+    {
+      "path": "results/archived_runs/aces_labels100_seed29/test/per_frame_class.csv",
+      "bytes": 85733,
+      "sha256": "5d75ca0b3b2da118f3fcfd9bce2e1898dded6b7cd11fe91af8972879c305536a"
+    },
+    {
+      "path": "results/archived_runs/aces_labels100_seed29/test/per_patient.csv",
+      "bytes": 4750,
+      "sha256": "5fb03f90aeeeca4b2da262a025ab1a3bbb2ca5a5559938661d0e10b09633709f"
+    },
+    {
+      "path": "results/archived_runs/aces_labels100_seed29/test/per_patient_class.csv",
+      "bytes": 14465,
+      "sha256": "1a8998930d1709311d3cec9a7b095435c77cf38b2c5954f728f34a826d4246f1"
+    },
+    {
+      "path": "results/archived_runs/aces_labels100_seed29/test/stratified.csv",
+      "bytes": 1137,
+      "sha256": "9a71aed46a3d32c3563e4d6347e143ddef24e04fef6fb2b00a97654fddce0645"
+    },
+    {
+      "path": "results/archived_runs/aces_labels100_seed29/test/summary.json",
+      "bytes": 4739,
+      "sha256": "f45b4cff8e8d9b0c009bf1cad18d6f8b9c285c208e052b570c5332802a61daf8"
+    },
+    {
+      "path": "results/archived_runs/aces_labels100_seed29/training_complete.json",
+      "bytes": 347,
+      "sha256": "5b4247429bd1da7320e1a62f8880bc642ea87b6cdf9feb6675305b46b9cacbe8"
+    },
+    {
+      "path": "results/archived_runs/aces_labels100_seed43/anatomical_prior.json",
+      "bytes": 9070,
+      "sha256": "44729cda9c44a5a9f9264be0d80b87716a9c0df57e0725a4a1b79d757e0c1bca"
+    },
+    {
+      "path": "results/archived_runs/aces_labels100_seed43/annotation_budget.json",
+      "bytes": 8139,
+      "sha256": "b11be6462014ca29e0530804f918ef9ccb0ac63f5693db65ef79ca7ee4008b14"
+    },
+    {
+      "path": "results/archived_runs/aces_labels100_seed43/contract.json",
+      "bytes": 8809,
+      "sha256": "e595ebf37dd09af707a47d94df181f270c33096cc86342f68184bcae1cf9fe44"
+    },
+    {
+      "path": "results/archived_runs/aces_labels100_seed43/hardware.json",
+      "bytes": 601,
+      "sha256": "fb0794b93a4c8758117d44d12f324c433e03738e9a190762dbb8833537f0d6d7"
+    },
+    {
+      "path": "results/archived_runs/aces_labels100_seed43/history.csv",
+      "bytes": 17610,
+      "sha256": "a40241c2245412b30bfb4fdce271ccfd2c746c7f312728431eda1da8180f2606"
+    },
+    {
+      "path": "results/archived_runs/aces_labels100_seed43/latency.json",
+      "bytes": 939,
+      "sha256": "4ca1edfdd20eb2db797f767553555ec845dcdac2a398aba82ca6e82c51675355"
+    },
+    {
+      "path": "results/archived_runs/aces_labels100_seed43/temperature.json",
+      "bytes": 482,
+      "sha256": "49e77c7751367a90c9fac22cea0057341c880bfb580e25c9a4d3a19825bd7499"
+    },
+    {
+      "path": "results/archived_runs/aces_labels100_seed43/test/evaluation_identity.json",
+      "bytes": 221,
+      "sha256": "52d79403c04526894e4cff9d7aaa703e6f440ef9200b9e7c2d6fd98dec0ab23d"
+    },
+    {
+      "path": "results/archived_runs/aces_labels100_seed43/test/per_frame_class.csv",
+      "bytes": 85749,
+      "sha256": "ac738c7dc64a01cf1d121b6178bd7641ff3d6be8d38a4536d9445ae94814179f"
+    },
+    {
+      "path": "results/archived_runs/aces_labels100_seed43/test/per_patient.csv",
+      "bytes": 4753,
+      "sha256": "416a0f773463e56de1deaf764fde07f3e29d3a1f9a95f84e38da17e362157ae0"
+    },
+    {
+      "path": "results/archived_runs/aces_labels100_seed43/test/per_patient_class.csv",
+      "bytes": 14465,
+      "sha256": "a35aa5b1053002d3ef58112218c68afb5300857f8448226c7e53bc4d82f18b6b"
+    },
+    {
+      "path": "results/archived_runs/aces_labels100_seed43/test/stratified.csv",
+      "bytes": 1134,
+      "sha256": "b5577d51ce4d9c86250b3e5e50b0d604943615d3ae2a329adea56c7256f0fdef"
+    },
+    {
+      "path": "results/archived_runs/aces_labels100_seed43/test/summary.json",
+      "bytes": 4744,
+      "sha256": "7a979065e75c7b64b02e2085e0d3581fd86895c1822c2eee07adbfb3125b02e8"
+    },
+    {
+      "path": "results/archived_runs/aces_labels100_seed43/training_complete.json",
+      "bytes": 346,
+      "sha256": "9c567f9ada5a0d3756d57ec4b245af1f8210f6254d25b62be0069cf868bdb824"
+    },
+    {
+      "path": "results/archived_runs/aces_view_agnostic_labels025_seed17/anatomical_prior.json",
+      "bytes": 3072,
+      "sha256": "44f5eaa21e939d528ccd543bd12002324f5758d9071301af950e308dbc6f1105"
+    },
+    {
+      "path": "results/archived_runs/aces_view_agnostic_labels025_seed17/annotation_budget.json",
+      "bytes": 2138,
+      "sha256": "adc0a0a88296b425f229f5b127f45d34a6fb27ef5e771db8ea5f3b90d1f1ce49"
+    },
+    {
+      "path": "results/archived_runs/aces_view_agnostic_labels025_seed17/contract.json",
+      "bytes": 2824,
+      "sha256": "5ed2157273fa0d2d5f37dc1b778f53a2d44b125150713a7cc8a1df2c5fded60c"
+    },
+    {
+      "path": "results/archived_runs/aces_view_agnostic_labels025_seed17/hardware.json",
+      "bytes": 601,
+      "sha256": "fb0794b93a4c8758117d44d12f324c433e03738e9a190762dbb8833537f0d6d7"
+    },
+    {
+      "path": "results/archived_runs/aces_view_agnostic_labels025_seed17/history.csv",
+      "bytes": 17652,
+      "sha256": "546eebb64f5b4c32fd643cb771ef78f7e36e13e2aca9fed1c199938cb3a93f88"
+    },
+    {
+      "path": "results/archived_runs/aces_view_agnostic_labels025_seed17/latency.json",
+      "bytes": 940,
+      "sha256": "51ebff015f0b8d67cada2e0541bff3c117c54b8fff24cbc97f5972b1bb87f809"
+    },
+    {
+      "path": "results/archived_runs/aces_view_agnostic_labels025_seed17/temperature.json",
+      "bytes": 495,
+      "sha256": "08acf5c7b8badca7cb6e15e8937806bd97882238989fd9adb92b25fdc55893df"
+    },
+    {
+      "path": "results/archived_runs/aces_view_agnostic_labels025_seed17/test/evaluation_identity.json",
+      "bytes": 221,
+      "sha256": "76d07dbc6e40d17b0e016a68e0be4b49bd4aed22fe7b143d2d30a7f02122d377"
+    },
+    {
+      "path": "results/archived_runs/aces_view_agnostic_labels025_seed17/test/per_frame_class.csv",
+      "bytes": 85664,
+      "sha256": "3e419833a59d7daf22877e00a7709c1e1e1e2ab8b3093de0a0e3cdbb3acdb0be"
+    },
+    {
+      "path": "results/archived_runs/aces_view_agnostic_labels025_seed17/test/per_patient.csv",
+      "bytes": 4741,
+      "sha256": "82165c7d91000890bbad5570ef1a22a2cf871df8a3699492d92dd5c938261022"
+    },
+    {
+      "path": "results/archived_runs/aces_view_agnostic_labels025_seed17/test/per_patient_class.csv",
+      "bytes": 14442,
+      "sha256": "194f777c7321b98211b9df65c2576ba0e3d62ddba63e603114c23146a35a4bee"
+    },
+    {
+      "path": "results/archived_runs/aces_view_agnostic_labels025_seed17/test/stratified.csv",
+      "bytes": 1135,
+      "sha256": "ea83349861a555bdfdea1a89bd96425ab170081aafc0073b05fb75d52f7e5532"
+    },
+    {
+      "path": "results/archived_runs/aces_view_agnostic_labels025_seed17/test/summary.json",
+      "bytes": 4749,
+      "sha256": "026ebaa94f0f46dfdea584e185d175126a03c8935f7e33218374f50e038c212f"
+    },
+    {
+      "path": "results/archived_runs/aces_view_agnostic_labels025_seed17/training_complete.json",
+      "bytes": 346,
+      "sha256": "9a10b634a65715da0d6fb7bf45223e9118dad2f2e675932be775d03f1f87adc7"
+    },
+    {
+      "path": "results/archived_runs/aces_view_agnostic_labels025_seed29/anatomical_prior.json",
+      "bytes": 3072,
+      "sha256": "44f5eaa21e939d528ccd543bd12002324f5758d9071301af950e308dbc6f1105"
+    },
+    {
+      "path": "results/archived_runs/aces_view_agnostic_labels025_seed29/annotation_budget.json",
+      "bytes": 2138,
+      "sha256": "adc0a0a88296b425f229f5b127f45d34a6fb27ef5e771db8ea5f3b90d1f1ce49"
+    },
+    {
+      "path": "results/archived_runs/aces_view_agnostic_labels025_seed29/contract.json",
+      "bytes": 2824,
+      "sha256": "6bfbcd3653f673929472255f8b27578b3ef681df8651d8aaed5a0dcb1b98b463"
+    },
+    {
+      "path": "results/archived_runs/aces_view_agnostic_labels025_seed29/hardware.json",
+      "bytes": 601,
+      "sha256": "fb0794b93a4c8758117d44d12f324c433e03738e9a190762dbb8833537f0d6d7"
+    },
+    {
+      "path": "results/archived_runs/aces_view_agnostic_labels025_seed29/history.csv",
+      "bytes": 17623,
+      "sha256": "b91825a5a6d7a49fd5442ae4f3d33974184ab4535db9a5fd3e551ba60c322703"
+    },
+    {
+      "path": "results/archived_runs/aces_view_agnostic_labels025_seed29/latency.json",
+      "bytes": 940,
+      "sha256": "776c986f05e86593b0c0a154a35c37463d0057e056e7bb88020a31fee6618bea"
+    },
+    {
+      "path": "results/archived_runs/aces_view_agnostic_labels025_seed29/temperature.json",
+      "bytes": 495,
+      "sha256": "68192b52c6e1ffd51ec08cd50eff0af86bd167084f1fc6e6ff748616ebe69193"
+    },
+    {
+      "path": "results/archived_runs/aces_view_agnostic_labels025_seed29/test/evaluation_identity.json",
+      "bytes": 220,
+      "sha256": "8c9ccc76f5e77d5973478c3d8f44ce0f178ad4366644cd9953e971869c291304"
+    },
+    {
+      "path": "results/archived_runs/aces_view_agnostic_labels025_seed29/test/per_frame_class.csv",
+      "bytes": 85622,
+      "sha256": "ebcc2eba91e512834c6e6e8a036beecfd8b43614d265354f85177629416e249a"
+    },
+    {
+      "path": "results/archived_runs/aces_view_agnostic_labels025_seed29/test/per_patient.csv",
+      "bytes": 4759,
+      "sha256": "87a8aa236b13e5c9f70bd10e238183b7b6a7039b3d353b5b6d0ab0fa9f5a44ca"
+    },
+    {
+      "path": "results/archived_runs/aces_view_agnostic_labels025_seed29/test/per_patient_class.csv",
+      "bytes": 14425,
+      "sha256": "546ff48e71b373f61c991e726c0a10a79c07c5ce5d694e32e5f5041f99239689"
+    },
+    {
+      "path": "results/archived_runs/aces_view_agnostic_labels025_seed29/test/stratified.csv",
+      "bytes": 1135,
+      "sha256": "214c16eff839a7e06d323093d7221b91026cfc8ab544e064c3f0a49551db0248"
+    },
+    {
+      "path": "results/archived_runs/aces_view_agnostic_labels025_seed29/test/summary.json",
+      "bytes": 4714,
+      "sha256": "c5ccec2b28c2aca6e4df6619f052f0150d7a332fc8680f10562f6574ae717451"
+    },
+    {
+      "path": "results/archived_runs/aces_view_agnostic_labels025_seed29/training_complete.json",
+      "bytes": 345,
+      "sha256": "0ade19b4f60b3ae8eff7620522a9d023c5f7796e68b96322736c83a79e9f04f8"
+    },
+    {
+      "path": "results/archived_runs/aces_view_agnostic_labels025_seed43/anatomical_prior.json",
+      "bytes": 3072,
+      "sha256": "44f5eaa21e939d528ccd543bd12002324f5758d9071301af950e308dbc6f1105"
+    },
+    {
+      "path": "results/archived_runs/aces_view_agnostic_labels025_seed43/annotation_budget.json",
+      "bytes": 2138,
+      "sha256": "adc0a0a88296b425f229f5b127f45d34a6fb27ef5e771db8ea5f3b90d1f1ce49"
+    },
+    {
+      "path": "results/archived_runs/aces_view_agnostic_labels025_seed43/contract.json",
+      "bytes": 2824,
+      "sha256": "1722ae63f16035f6ba297fa0a8fb774e96d0d90ade68006b318a5f24fd3139ca"
+    },
+    {
+      "path": "results/archived_runs/aces_view_agnostic_labels025_seed43/hardware.json",
+      "bytes": 601,
+      "sha256": "fb0794b93a4c8758117d44d12f324c433e03738e9a190762dbb8833537f0d6d7"
+    },
+    {
+      "path": "results/archived_runs/aces_view_agnostic_labels025_seed43/history.csv",
+      "bytes": 17646,
+      "sha256": "cc09a1ebb1916750eb314133c9465b7dea7ddb5d14e77d8924a0334badb7dbda"
+    },
+    {
+      "path": "results/archived_runs/aces_view_agnostic_labels025_seed43/latency.json",
+      "bytes": 938,
+      "sha256": "02beaaec0d0d3af803e35b53f99c6610e5373a685e356ffbff22c76e3c8c76c3"
+    },
+    {
+      "path": "results/archived_runs/aces_view_agnostic_labels025_seed43/temperature.json",
+      "bytes": 496,
+      "sha256": "385d12094d5bd5298aa18dcce46136ec80e4846c423db8197074768518175fcb"
+    },
+    {
+      "path": "results/archived_runs/aces_view_agnostic_labels025_seed43/test/evaluation_identity.json",
+      "bytes": 221,
+      "sha256": "4524e64bb5537bfa751d534de7a6ea536524a224ce1753e8f4822ba16a52a63a"
+    },
+    {
+      "path": "results/archived_runs/aces_view_agnostic_labels025_seed43/test/per_frame_class.csv",
+      "bytes": 85597,
+      "sha256": "37e7bbcdb3edd9c360db6161a812068f9c35a17e2831049e02534fa616c665c7"
+    },
+    {
+      "path": "results/archived_runs/aces_view_agnostic_labels025_seed43/test/per_patient.csv",
+      "bytes": 4753,
+      "sha256": "2dcea6d86fed8708c0bf4a831216b319542906c0e6e6b80cf0a497f604756691"
+    },
+    {
+      "path": "results/archived_runs/aces_view_agnostic_labels025_seed43/test/per_patient_class.csv",
+      "bytes": 14432,
+      "sha256": "acb5c9891d4fe9c7295b4807decaa45eadc4b61d7971e7c1298898ec606288d0"
+    },
+    {
+      "path": "results/archived_runs/aces_view_agnostic_labels025_seed43/test/stratified.csv",
+      "bytes": 1134,
+      "sha256": "c8f40b8ae228c8a09a8ef7cb87c8538d76d0a1f4dc8b6826cc6d6042bce697f1"
+    },
+    {
+      "path": "results/archived_runs/aces_view_agnostic_labels025_seed43/test/summary.json",
+      "bytes": 4720,
+      "sha256": "ba199de1ae4771aed4d6f3a772ea97b54c74e44ff19eab1ce5b48fe7edf45dfe"
+    },
+    {
+      "path": "results/archived_runs/aces_view_agnostic_labels025_seed43/training_complete.json",
+      "bytes": 346,
+      "sha256": "60cda72e0245874f506aca5af13af2509000f65841cb171e9f465fd1eaa60e56"
+    },
+    {
+      "path": "results/archived_runs/graph_confidence_labels025_seed17/annotation_budget.json",
+      "bytes": 2138,
+      "sha256": "adc0a0a88296b425f229f5b127f45d34a6fb27ef5e771db8ea5f3b90d1f1ce49"
+    },
+    {
+      "path": "results/archived_runs/graph_confidence_labels025_seed17/contract.json",
+      "bytes": 2822,
+      "sha256": "8eda8c0f036efc9aa3c22d6cd9e04dfa571d9b20bf8522d1165f541161a6874b"
+    },
+    {
+      "path": "results/archived_runs/graph_confidence_labels025_seed17/hardware.json",
+      "bytes": 601,
+      "sha256": "fb0794b93a4c8758117d44d12f324c433e03738e9a190762dbb8833537f0d6d7"
+    },
+    {
+      "path": "results/archived_runs/graph_confidence_labels025_seed17/history.csv",
+      "bytes": 17651,
+      "sha256": "229b9b5b08a8c1dabd8edd8b48530eb7cfafce856b850fb550cce938541ac2cc"
+    },
+    {
+      "path": "results/archived_runs/graph_confidence_labels025_seed17/latency.json",
+      "bytes": 937,
+      "sha256": "0e3b1cd834e6874e921c2c8b9fd26772df61299053c7507f361cc582b4db9ebf"
+    },
+    {
+      "path": "results/archived_runs/graph_confidence_labels025_seed17/temperature.json",
+      "bytes": 493,
+      "sha256": "0cbe974170de300d4ae0ae6e665dea5bf52c37a5d887e95f7852f2095556d983"
+    },
+    {
+      "path": "results/archived_runs/graph_confidence_labels025_seed17/test/evaluation_identity.json",
+      "bytes": 221,
+      "sha256": "11c89888cfa97f676abc246537ca420b00b513dbec9723245811c44b3306b86d"
+    },
+    {
+      "path": "results/archived_runs/graph_confidence_labels025_seed17/test/per_frame_class.csv",
+      "bytes": 85670,
+      "sha256": "39f05884ca0da67c439a58af42ff1fe357298408d641969be840a81a6fb934d7"
+    },
+    {
+      "path": "results/archived_runs/graph_confidence_labels025_seed17/test/per_patient.csv",
+      "bytes": 4758,
+      "sha256": "4238f53e473959d25f80f65ec3abd32375dfb5849da8df77d437551a32ff0f11"
+    },
+    {
+      "path": "results/archived_runs/graph_confidence_labels025_seed17/test/per_patient_class.csv",
+      "bytes": 14421,
+      "sha256": "e20281ea5240cc2f612c2fd8be1a97850bd25aa5b5c9a2b64f3edd9cbb2d860d"
+    },
+    {
+      "path": "results/archived_runs/graph_confidence_labels025_seed17/test/stratified.csv",
+      "bytes": 1133,
+      "sha256": "89cdc94aa6fb3e865ad59f3f2b9ef4bcb70bb17c197329800762f6dad1207abe"
+    },
+    {
+      "path": "results/archived_runs/graph_confidence_labels025_seed17/test/summary.json",
+      "bytes": 4767,
+      "sha256": "f9479febf5115c20ffb007db23d89314569775b7eaec35e2978f4f49e2bb8bc2"
+    },
+    {
+      "path": "results/archived_runs/graph_confidence_labels025_seed17/training_complete.json",
+      "bytes": 347,
+      "sha256": "d9c2267d642e073e968af6a4bf55a5c623ccb675acc6306dea9005b596ca3ca2"
+    },
+    {
+      "path": "results/archived_runs/graph_confidence_labels025_seed29/annotation_budget.json",
+      "bytes": 2138,
+      "sha256": "adc0a0a88296b425f229f5b127f45d34a6fb27ef5e771db8ea5f3b90d1f1ce49"
+    },
+    {
+      "path": "results/archived_runs/graph_confidence_labels025_seed29/contract.json",
+      "bytes": 2822,
+      "sha256": "fc4e1487bebb9887dd2a3bb2fc8ac027a4c5e146a2de805fdabc1b656c2c5ca5"
+    },
+    {
+      "path": "results/archived_runs/graph_confidence_labels025_seed29/hardware.json",
+      "bytes": 601,
+      "sha256": "fb0794b93a4c8758117d44d12f324c433e03738e9a190762dbb8833537f0d6d7"
+    },
+    {
+      "path": "results/archived_runs/graph_confidence_labels025_seed29/history.csv",
+      "bytes": 17658,
+      "sha256": "e7e9355f4bacc4d31162a2621ecbc665f1b8a1d1687d530925352fca13ed9095"
+    },
+    {
+      "path": "results/archived_runs/graph_confidence_labels025_seed29/latency.json",
+      "bytes": 940,
+      "sha256": "f6e5c948d2be06224b5f4da72fa33a83464115a0a2888b93ed67cb620b1da2d5"
+    },
+    {
+      "path": "results/archived_runs/graph_confidence_labels025_seed29/temperature.json",
+      "bytes": 492,
+      "sha256": "6d557fa67baf98e900a3fba306ea6cc3eedf2fb123386edc153083cf620fcc85"
+    },
+    {
+      "path": "results/archived_runs/graph_confidence_labels025_seed29/test/evaluation_identity.json",
+      "bytes": 220,
+      "sha256": "bb9597502aed6485491b02017b5576f472afd7c05dcfb41b3fd053918da3808b"
+    },
+    {
+      "path": "results/archived_runs/graph_confidence_labels025_seed29/test/per_frame_class.csv",
+      "bytes": 85694,
+      "sha256": "7363c3d1ae27eed5b2dec48738e19c26c8f43db6b7e6f48a51402cb608f09640"
+    },
+    {
+      "path": "results/archived_runs/graph_confidence_labels025_seed29/test/per_patient.csv",
+      "bytes": 4746,
+      "sha256": "b239c0ec97a8260651f91d8de5cd384d2380ac3249c9a970cc0f4c097bc64246"
+    },
+    {
+      "path": "results/archived_runs/graph_confidence_labels025_seed29/test/per_patient_class.csv",
+      "bytes": 14436,
+      "sha256": "d72b170f4f2098a81b29aa35269e4247651aba2f78105314b5955e3d3b61518a"
+    },
+    {
+      "path": "results/archived_runs/graph_confidence_labels025_seed29/test/stratified.csv",
+      "bytes": 1126,
+      "sha256": "5044ce81c7bc03c822adae6cda141e7f0adade96e4311fb1cd6a2e7bad2d17be"
+    },
+    {
+      "path": "results/archived_runs/graph_confidence_labels025_seed29/test/summary.json",
+      "bytes": 4762,
+      "sha256": "d25270b68e6211f47137531914a0d73afc580ddf58f994853b830619920b038a"
+    },
+    {
+      "path": "results/archived_runs/graph_confidence_labels025_seed29/training_complete.json",
+      "bytes": 346,
+      "sha256": "15a1277ebb83049cc8966989c4d05275f293b21dd5b3749fbb7e311daf88d34b"
+    },
+    {
+      "path": "results/archived_runs/graph_confidence_labels025_seed43/annotation_budget.json",
+      "bytes": 2138,
+      "sha256": "adc0a0a88296b425f229f5b127f45d34a6fb27ef5e771db8ea5f3b90d1f1ce49"
+    },
+    {
+      "path": "results/archived_runs/graph_confidence_labels025_seed43/contract.json",
+      "bytes": 2822,
+      "sha256": "ef2f8b911b8d9e06f4ebcf41057b0e92c8d4dbac472d40e11bbb90fc8c295d73"
+    },
+    {
+      "path": "results/archived_runs/graph_confidence_labels025_seed43/hardware.json",
+      "bytes": 601,
+      "sha256": "fb0794b93a4c8758117d44d12f324c433e03738e9a190762dbb8833537f0d6d7"
+    },
+    {
+      "path": "results/archived_runs/graph_confidence_labels025_seed43/history.csv",
+      "bytes": 17670,
+      "sha256": "d1f7557759f62692937a0a6a1bf7eeae95ed347b255a94bb461a47212af887b9"
+    },
+    {
+      "path": "results/archived_runs/graph_confidence_labels025_seed43/latency.json",
+      "bytes": 939,
+      "sha256": "8136c9a7987749b5e973ed0b0f6c9c81c9969915aa31e35a6fd67f7d5167adbc"
+    },
+    {
+      "path": "results/archived_runs/graph_confidence_labels025_seed43/temperature.json",
+      "bytes": 493,
+      "sha256": "2fd639009f4ca2261ab54a2f89802cb975f27d85bd5e0507a146e95070efad20"
+    },
+    {
+      "path": "results/archived_runs/graph_confidence_labels025_seed43/test/evaluation_identity.json",
+      "bytes": 220,
+      "sha256": "1f367edd61dfdc716fe8659dc2abb337d72641343711bc209f349741715313f4"
+    },
+    {
+      "path": "results/archived_runs/graph_confidence_labels025_seed43/test/per_frame_class.csv",
+      "bytes": 85669,
+      "sha256": "f47a1673b9649dcdae9e0d8c5ce8e3654d5f40c851b00f73181b3cc5d7ad29e2"
+    },
+    {
+      "path": "results/archived_runs/graph_confidence_labels025_seed43/test/per_patient.csv",
+      "bytes": 4744,
+      "sha256": "4b1399a76c3cfecc69432d359a5e55f9d2687c1c2dce866eac254cffb28ef85c"
+    },
+    {
+      "path": "results/archived_runs/graph_confidence_labels025_seed43/test/per_patient_class.csv",
+      "bytes": 14454,
+      "sha256": "bb5d0d78f3f16a14bbad962fbca936cb72986b7bf5a7af29c6606db03855fe3e"
+    },
+    {
+      "path": "results/archived_runs/graph_confidence_labels025_seed43/test/stratified.csv",
+      "bytes": 1128,
+      "sha256": "540f54e25e61989b58905d14d93e6fcf4f9f09f301b616b70db6c06a239b7ae8"
+    },
+    {
+      "path": "results/archived_runs/graph_confidence_labels025_seed43/test/summary.json",
+      "bytes": 4721,
+      "sha256": "f822089ea1e0f2c0e6730f3b7da2bd9abeccc9f848265870df541e5aa7797c03"
+    },
+    {
+      "path": "results/archived_runs/graph_confidence_labels025_seed43/training_complete.json",
+      "bytes": 347,
+      "sha256": "910c2aa1f8fca02a101f7b7e1ac244e175a2a94d1023e21051e4a9b57cdca820"
+    },
+    {
+      "path": "results/archived_runs/graph_gaussian_labels025_seed17/anatomical_prior.json",
+      "bytes": 3072,
+      "sha256": "44f5eaa21e939d528ccd543bd12002324f5758d9071301af950e308dbc6f1105"
+    },
+    {
+      "path": "results/archived_runs/graph_gaussian_labels025_seed17/annotation_budget.json",
+      "bytes": 2138,
+      "sha256": "adc0a0a88296b425f229f5b127f45d34a6fb27ef5e771db8ea5f3b90d1f1ce49"
+    },
+    {
+      "path": "results/archived_runs/graph_gaussian_labels025_seed17/contract.json",
+      "bytes": 2820,
+      "sha256": "845a113e01a29295c3811b151102314b645725292d8431d4313d0a54c0551ea7"
+    },
+    {
+      "path": "results/archived_runs/graph_gaussian_labels025_seed17/hardware.json",
+      "bytes": 601,
+      "sha256": "fb0794b93a4c8758117d44d12f324c433e03738e9a190762dbb8833537f0d6d7"
+    },
+    {
+      "path": "results/archived_runs/graph_gaussian_labels025_seed17/history.csv",
+      "bytes": 17670,
+      "sha256": "956d24bd57e426d21729d046569f2bc908a9e2d1ea4a3a2bcb2358b9f1da3169"
+    },
+    {
+      "path": "results/archived_runs/graph_gaussian_labels025_seed17/latency.json",
+      "bytes": 938,
+      "sha256": "5ba50a9438bcce8e0ba597fbfb0a3a1fd5258f3fc5aa402a40924fd15123e3fc"
+    },
+    {
+      "path": "results/archived_runs/graph_gaussian_labels025_seed17/temperature.json",
+      "bytes": 491,
+      "sha256": "cf0255dcc84b06c13e66f3484195dd746f361c765dd87581545cf569853d8f74"
+    },
+    {
+      "path": "results/archived_runs/graph_gaussian_labels025_seed17/test/evaluation_identity.json",
+      "bytes": 221,
+      "sha256": "00b886bf21853488b18a9031d2bfd8d6fd01664e90c9d1dddff511ebbfaebc07"
+    },
+    {
+      "path": "results/archived_runs/graph_gaussian_labels025_seed17/test/per_frame_class.csv",
+      "bytes": 85689,
+      "sha256": "5c6f6269a57cd1ae052fb113fdd6d302b67ea248d01a090d60eb90dcd1c3cda0"
+    },
+    {
+      "path": "results/archived_runs/graph_gaussian_labels025_seed17/test/per_patient.csv",
+      "bytes": 4755,
+      "sha256": "d547d74ac4fbf81b8de44ac4cb77759dd0a7bd2725e445c41997f9928285fe7a"
+    },
+    {
+      "path": "results/archived_runs/graph_gaussian_labels025_seed17/test/per_patient_class.csv",
+      "bytes": 14437,
+      "sha256": "1a6f3021271a6f54447416557602e0a702834cd720f2ab26aabf724edb0cf972"
+    },
+    {
+      "path": "results/archived_runs/graph_gaussian_labels025_seed17/test/stratified.csv",
+      "bytes": 1134,
+      "sha256": "5ce7a18d14dab9d8f5e2b6c3358890c740a90cbe77e753530045792c7202edd1"
+    },
+    {
+      "path": "results/archived_runs/graph_gaussian_labels025_seed17/test/summary.json",
+      "bytes": 4742,
+      "sha256": "5abd17da4da1c5fff15998659c4814d89ea1f887a6aea5d992006810d6677b7f"
+    },
+    {
+      "path": "results/archived_runs/graph_gaussian_labels025_seed17/training_complete.json",
+      "bytes": 347,
+      "sha256": "54d9bb5a67b6e5ddaa602ab22226aa3bf201d26be5439653fce204801cf03fcb"
+    },
+    {
+      "path": "results/archived_runs/graph_gaussian_labels025_seed29/anatomical_prior.json",
+      "bytes": 3072,
+      "sha256": "44f5eaa21e939d528ccd543bd12002324f5758d9071301af950e308dbc6f1105"
+    },
+    {
+      "path": "results/archived_runs/graph_gaussian_labels025_seed29/annotation_budget.json",
+      "bytes": 2138,
+      "sha256": "adc0a0a88296b425f229f5b127f45d34a6fb27ef5e771db8ea5f3b90d1f1ce49"
+    },
+    {
+      "path": "results/archived_runs/graph_gaussian_labels025_seed29/contract.json",
+      "bytes": 2820,
+      "sha256": "f6acd0d9c9153d52624583f2f8552749b9d0a44a2153b26b4851a43e64fad566"
+    },
+    {
+      "path": "results/archived_runs/graph_gaussian_labels025_seed29/hardware.json",
+      "bytes": 601,
+      "sha256": "fb0794b93a4c8758117d44d12f324c433e03738e9a190762dbb8833537f0d6d7"
+    },
+    {
+      "path": "results/archived_runs/graph_gaussian_labels025_seed29/history.csv",
+      "bytes": 17653,
+      "sha256": "b12cda17c76a9b4e18c61f5a2e8b589995baf90100c180488d4d5d6288c82b3c"
+    },
+    {
+      "path": "results/archived_runs/graph_gaussian_labels025_seed29/latency.json",
+      "bytes": 938,
+      "sha256": "cf3ee2f5ba87bcd7f342df055df99485236378472b6b0c5d581d73b33b4ed127"
+    },
+    {
+      "path": "results/archived_runs/graph_gaussian_labels025_seed29/temperature.json",
+      "bytes": 492,
+      "sha256": "bb5ab7db43cb363e8e4be853f080988fc2f445d25c8ab13322090000222d2298"
+    },
+    {
+      "path": "results/archived_runs/graph_gaussian_labels025_seed29/test/evaluation_identity.json",
+      "bytes": 221,
+      "sha256": "d57ca2fa3ad40fe09345c1acf153943977dfc9fb045129fe5ae2d3ed0a15435c"
+    },
+    {
+      "path": "results/archived_runs/graph_gaussian_labels025_seed29/test/per_frame_class.csv",
+      "bytes": 85691,
+      "sha256": "4ca5fc82ae41fc1b164256a2f5945ea96c525c08ee2df6d67d9381179468a84f"
+    },
+    {
+      "path": "results/archived_runs/graph_gaussian_labels025_seed29/test/per_patient.csv",
+      "bytes": 4762,
+      "sha256": "1b260522ab7729f11704cce49ec3ba1e4076db5510f5188e3c39f4e131049c4a"
+    },
+    {
+      "path": "results/archived_runs/graph_gaussian_labels025_seed29/test/per_patient_class.csv",
+      "bytes": 14447,
+      "sha256": "bf9bae196a39dedde5f2c9afe8ed50028f4e539f4741b068bc9daac19bb7b151"
+    },
+    {
+      "path": "results/archived_runs/graph_gaussian_labels025_seed29/test/stratified.csv",
+      "bytes": 1132,
+      "sha256": "d5d56ac87418353595dc11e85bee7130c17aef48df525782f6a4e925f3c13318"
+    },
+    {
+      "path": "results/archived_runs/graph_gaussian_labels025_seed29/test/summary.json",
+      "bytes": 4706,
+      "sha256": "994011404bf080f9099e62459733c923d553ce5423e37d12f18accc1270bac0c"
+    },
+    {
+      "path": "results/archived_runs/graph_gaussian_labels025_seed29/training_complete.json",
+      "bytes": 346,
+      "sha256": "ad4c24e95401321dbccfc4d05c967aeb3efcd0cc3374c29dab11291af2358609"
+    },
+    {
+      "path": "results/archived_runs/graph_gaussian_labels025_seed43/anatomical_prior.json",
+      "bytes": 3072,
+      "sha256": "44f5eaa21e939d528ccd543bd12002324f5758d9071301af950e308dbc6f1105"
+    },
+    {
+      "path": "results/archived_runs/graph_gaussian_labels025_seed43/annotation_budget.json",
+      "bytes": 2138,
+      "sha256": "adc0a0a88296b425f229f5b127f45d34a6fb27ef5e771db8ea5f3b90d1f1ce49"
+    },
+    {
+      "path": "results/archived_runs/graph_gaussian_labels025_seed43/contract.json",
+      "bytes": 2820,
+      "sha256": "16d19eeda30ccd64083f2ed53946497fa51d9b26ec373395e69c324a02411594"
+    },
+    {
+      "path": "results/archived_runs/graph_gaussian_labels025_seed43/hardware.json",
+      "bytes": 601,
+      "sha256": "fb0794b93a4c8758117d44d12f324c433e03738e9a190762dbb8833537f0d6d7"
+    },
+    {
+      "path": "results/archived_runs/graph_gaussian_labels025_seed43/history.csv",
+      "bytes": 17654,
+      "sha256": "d13b2946b7211c30d4814b4edecf5d40b25dc1cf4ddb8315e479e71968939cd9"
+    },
+    {
+      "path": "results/archived_runs/graph_gaussian_labels025_seed43/latency.json",
+      "bytes": 940,
+      "sha256": "831d21848f919fe4841f0306264faacb98fac029b453430e1b2da49718423868"
+    },
+    {
+      "path": "results/archived_runs/graph_gaussian_labels025_seed43/temperature.json",
+      "bytes": 492,
+      "sha256": "bce8ebc939fc7a41b25ca9f1afd9fec0a23e77b72e98a93b0e5498717d8f5c41"
+    },
+    {
+      "path": "results/archived_runs/graph_gaussian_labels025_seed43/test/evaluation_identity.json",
+      "bytes": 221,
+      "sha256": "52457e4988f01742ced297346a9f6b0b89e82f7437af58055cb93e787ef2299a"
+    },
+    {
+      "path": "results/archived_runs/graph_gaussian_labels025_seed43/test/per_frame_class.csv",
+      "bytes": 85676,
+      "sha256": "767ef55ef80c821176f37f7731f3d2d9ed4f91e2643fb55b6ac3f9b24815aadc"
+    },
+    {
+      "path": "results/archived_runs/graph_gaussian_labels025_seed43/test/per_patient.csv",
+      "bytes": 4753,
+      "sha256": "f7f249ea6c28a2d43683a4df6b2a9a711930bceaa352fb17a3233c69222bc883"
+    },
+    {
+      "path": "results/archived_runs/graph_gaussian_labels025_seed43/test/per_patient_class.csv",
+      "bytes": 14454,
+      "sha256": "be00eab858870c61c2edd8eb6144b5683996ff19f9ef97e0ee67c9d453d7be58"
+    },
+    {
+      "path": "results/archived_runs/graph_gaussian_labels025_seed43/test/stratified.csv",
+      "bytes": 1132,
+      "sha256": "a1973d20ea331cec8f34d62133a74fcc83b9b71ef30e52b9cffc2cff039efbeb"
+    },
+    {
+      "path": "results/archived_runs/graph_gaussian_labels025_seed43/test/summary.json",
+      "bytes": 4715,
+      "sha256": "1324bcda09aa2b1c323ee8c2c1dbc8ba114604ff2d455e28780463ac98122b94"
+    },
+    {
+      "path": "results/archived_runs/graph_gaussian_labels025_seed43/training_complete.json",
+      "bytes": 346,
+      "sha256": "1d62da64ad229b448d31c2c145939f28662fec94d58f57e44466b65068947016"
+    },
+    {
+      "path": "results/archived_runs/graph_supervised_labels025_seed17/annotation_budget.json",
+      "bytes": 2138,
+      "sha256": "adc0a0a88296b425f229f5b127f45d34a6fb27ef5e771db8ea5f3b90d1f1ce49"
+    },
+    {
+      "path": "results/archived_runs/graph_supervised_labels025_seed17/contract.json",
+      "bytes": 2822,
+      "sha256": "d1ce620ff21a34ca97af64c0f2a587114e9689f41fc3ea56b44e8b7e1d9d83e4"
+    },
+    {
+      "path": "results/archived_runs/graph_supervised_labels025_seed17/hardware.json",
+      "bytes": 601,
+      "sha256": "fb0794b93a4c8758117d44d12f324c433e03738e9a190762dbb8833537f0d6d7"
+    },
+    {
+      "path": "results/archived_runs/graph_supervised_labels025_seed17/history.csv",
+      "bytes": 14948,
+      "sha256": "537cd2650699bd301fbc249954f56ce7a38051cd02caa3b1ab612ef6af487701"
+    },
+    {
+      "path": "results/archived_runs/graph_supervised_labels025_seed17/latency.json",
+      "bytes": 939,
+      "sha256": "b98a4eb2010174c88b468aabe9a7079ab926ff7fb29cf10d6fa9430b1bcb38db"
+    },
+    {
+      "path": "results/archived_runs/graph_supervised_labels025_seed17/temperature.json",
+      "bytes": 494,
+      "sha256": "fa450522d2a91c6e5777f783c65fc9974cb1486e0872adbd1012660f45c5af25"
+    },
+    {
+      "path": "results/archived_runs/graph_supervised_labels025_seed17/test/evaluation_identity.json",
+      "bytes": 221,
+      "sha256": "805398b35d57d04e87986c007f445b4ee078be56e99de59c29445d11c2a16c5e"
+    },
+    {
+      "path": "results/archived_runs/graph_supervised_labels025_seed17/test/per_frame_class.csv",
+      "bytes": 85628,
+      "sha256": "602285aa0fe7493b43751f6d340a29fe58b1f4c39ccd578c874d1dc14593c66d"
+    },
+    {
+      "path": "results/archived_runs/graph_supervised_labels025_seed17/test/per_patient.csv",
+      "bytes": 4758,
+      "sha256": "f5f8d5d499acb677991d67bcd21f49e28c3eb0e44988da1caba9f109333c4d6e"
+    },
+    {
+      "path": "results/archived_runs/graph_supervised_labels025_seed17/test/per_patient_class.csv",
+      "bytes": 14435,
+      "sha256": "1a1c4f88f38c842517f7593c764559fc0648411c39b253bd9a331ca62a86bba1"
+    },
+    {
+      "path": "results/archived_runs/graph_supervised_labels025_seed17/test/stratified.csv",
+      "bytes": 1131,
+      "sha256": "761238684beaed324c8972f4cb0041f2fe8c3c8cd5685021a01275a3b302995b"
+    },
+    {
+      "path": "results/archived_runs/graph_supervised_labels025_seed17/test/summary.json",
+      "bytes": 4757,
+      "sha256": "e94f499f57d25425393f798626d9bc756e156bd94d595e4a1a59d76c934edf42"
+    },
+    {
+      "path": "results/archived_runs/graph_supervised_labels025_seed17/training_complete.json",
+      "bytes": 346,
+      "sha256": "21b023e11815dc5f6ee1a451fa626bd7e254a93f8b3394140c0dfcfa07ac0c2e"
+    },
+    {
+      "path": "results/archived_runs/graph_supervised_labels025_seed29/annotation_budget.json",
+      "bytes": 2138,
+      "sha256": "adc0a0a88296b425f229f5b127f45d34a6fb27ef5e771db8ea5f3b90d1f1ce49"
+    },
+    {
+      "path": "results/archived_runs/graph_supervised_labels025_seed29/contract.json",
+      "bytes": 2822,
+      "sha256": "d0d4053af69a202cd6f41181c939ecabbd28ef46bbf7ee1b021803bd9b9829af"
+    },
+    {
+      "path": "results/archived_runs/graph_supervised_labels025_seed29/hardware.json",
+      "bytes": 601,
+      "sha256": "fb0794b93a4c8758117d44d12f324c433e03738e9a190762dbb8833537f0d6d7"
+    },
+    {
+      "path": "results/archived_runs/graph_supervised_labels025_seed29/history.csv",
+      "bytes": 14959,
+      "sha256": "0247cc99cbb40c0e438eead33909fa6d2b2afe1c9a839bc9f59104bdd3f5e267"
+    },
+    {
+      "path": "results/archived_runs/graph_supervised_labels025_seed29/latency.json",
+      "bytes": 940,
+      "sha256": "6e488d0ceca14c6f20275fb29220cc1cecfa59dc6d9591c7693dae2351e5c3ef"
+    },
+    {
+      "path": "results/archived_runs/graph_supervised_labels025_seed29/temperature.json",
+      "bytes": 492,
+      "sha256": "186e17a9230ae8135b73f62a45c375ddb4a7439050bcff8893338c86b10ed240"
+    },
+    {
+      "path": "results/archived_runs/graph_supervised_labels025_seed29/test/evaluation_identity.json",
+      "bytes": 220,
+      "sha256": "f10eeb8b2fbc920dbc86df4ce66f9f4e77451f46b3d9b19909fb3d5a3666079d"
+    },
+    {
+      "path": "results/archived_runs/graph_supervised_labels025_seed29/test/per_frame_class.csv",
+      "bytes": 85643,
+      "sha256": "815f3a8ef98ec394fe66be07cb4d89cad5fa9b7dc936c94e2905adf16b50446d"
+    },
+    {
+      "path": "results/archived_runs/graph_supervised_labels025_seed29/test/per_patient.csv",
+      "bytes": 4755,
+      "sha256": "abb46ff40bc0489c2ee161ef4c18b6a219f92e04d0af783059dba21742bd594b"
+    },
+    {
+      "path": "results/archived_runs/graph_supervised_labels025_seed29/test/per_patient_class.csv",
+      "bytes": 14440,
+      "sha256": "f691c9a22a9868f2ca2b6eebe00d7df748cf7ad4e00ec4f897370d5b8a9d5550"
+    },
+    {
+      "path": "results/archived_runs/graph_supervised_labels025_seed29/test/stratified.csv",
+      "bytes": 1132,
+      "sha256": "486e362d194bf16924a535a66ead33cfff2cb77615b516873676d8c77ca2209a"
+    },
+    {
+      "path": "results/archived_runs/graph_supervised_labels025_seed29/test/summary.json",
+      "bytes": 4765,
+      "sha256": "e39de070d44688003746e9af8bf784329c0052ee2a7db2605452e52eb164ae73"
+    },
+    {
+      "path": "results/archived_runs/graph_supervised_labels025_seed29/training_complete.json",
+      "bytes": 348,
+      "sha256": "d104916f969590876889de3b8a7319325306abd3c1bf4a80828d6eb094134cd8"
+    },
+    {
+      "path": "results/archived_runs/graph_supervised_labels025_seed43/annotation_budget.json",
+      "bytes": 2138,
+      "sha256": "adc0a0a88296b425f229f5b127f45d34a6fb27ef5e771db8ea5f3b90d1f1ce49"
+    },
+    {
+      "path": "results/archived_runs/graph_supervised_labels025_seed43/contract.json",
+      "bytes": 2822,
+      "sha256": "5d617cc01bcf5282df13ca084aaafa162d8c11a089ae4acfc44770e199b1cb32"
+    },
+    {
+      "path": "results/archived_runs/graph_supervised_labels025_seed43/hardware.json",
+      "bytes": 601,
+      "sha256": "fb0794b93a4c8758117d44d12f324c433e03738e9a190762dbb8833537f0d6d7"
+    },
+    {
+      "path": "results/archived_runs/graph_supervised_labels025_seed43/history.csv",
+      "bytes": 14965,
+      "sha256": "2b74dfd49e536cdd40ebeb57f794896e65dbb97a0ba77f305593a931d36596b5"
+    },
+    {
+      "path": "results/archived_runs/graph_supervised_labels025_seed43/latency.json",
+      "bytes": 939,
+      "sha256": "8b39411773ff1c305ac83fc31ddbb14a98b31fca2eb5a16e158f9eda0c3ba1ff"
+    },
+    {
+      "path": "results/archived_runs/graph_supervised_labels025_seed43/temperature.json",
+      "bytes": 493,
+      "sha256": "6bc906605187b10ed4e95c72d3aff4085ef7456b9165c3f3369d56f9b18b7182"
+    },
+    {
+      "path": "results/archived_runs/graph_supervised_labels025_seed43/test/evaluation_identity.json",
+      "bytes": 220,
+      "sha256": "91ff5fe70ffed7c6ac85bd93cb7cffc682f6402b45bf80f910f340f4ce9035ec"
+    },
+    {
+      "path": "results/archived_runs/graph_supervised_labels025_seed43/test/per_frame_class.csv",
+      "bytes": 85642,
+      "sha256": "bd2cd1c18347259897398371a7c271b33bdc4cf6ab793e6a5bfa4626f7d6cf56"
+    },
+    {
+      "path": "results/archived_runs/graph_supervised_labels025_seed43/test/per_patient.csv",
+      "bytes": 4749,
+      "sha256": "8dd588b06363bda0384bd98dee739ab7d99386f1b6b7808118b643b813a4dc6c"
+    },
+    {
+      "path": "results/archived_runs/graph_supervised_labels025_seed43/test/per_patient_class.csv",
+      "bytes": 14420,
+      "sha256": "a49153ab8a9a2bd33c8735839d7efbbcde516b4c22bb066b47bc2c122dc4a0cd"
+    },
+    {
+      "path": "results/archived_runs/graph_supervised_labels025_seed43/test/stratified.csv",
+      "bytes": 1133,
+      "sha256": "de2de4bd3714ce75444fac1989586ca632f84d1f3339177e43411c5c605dedd1"
+    },
+    {
+      "path": "results/archived_runs/graph_supervised_labels025_seed43/test/summary.json",
+      "bytes": 4712,
+      "sha256": "4fb4fd31e6691f77f5fe088155fc4b141c71f5910282bd2eacceddd0b064bd73"
+    },
+    {
+      "path": "results/archived_runs/graph_supervised_labels025_seed43/training_complete.json",
+      "bytes": 348,
+      "sha256": "ee644c2ea81c9663239ec966ffe1ac2a93c7b1da0e58e75c654e22eb6fb49868"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels025_seed17/annotation_budget.json",
+      "bytes": 2138,
+      "sha256": "adc0a0a88296b425f229f5b127f45d34a6fb27ef5e771db8ea5f3b90d1f1ce49"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels025_seed17/contract.json",
+      "bytes": 2818,
+      "sha256": "6f47d2ae286f305dbe29f2f753d10e759a1ca74923b0e181d879026d5dbb6176"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels025_seed17/hardware.json",
+      "bytes": 601,
+      "sha256": "fb0794b93a4c8758117d44d12f324c433e03738e9a190762dbb8833537f0d6d7"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels025_seed17/history.csv",
+      "bytes": 17645,
+      "sha256": "090ec331c9b9ee4fc550106b13e4f78ddfa21ca7920d0a728070b7d11c83b084"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels025_seed17/latency.json",
+      "bytes": 898,
+      "sha256": "4081b890a892040072f647abdfe8b2a401d7dccf20a3e73221c6a59702c6280f"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels025_seed17/temperature.json",
+      "bytes": 489,
+      "sha256": "1febcf65b3eb0cc6306af4af3543e780ed979afaf94a91bcade486b8e0d8d3d5"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels025_seed17/test/evaluation_identity.json",
+      "bytes": 221,
+      "sha256": "f5d25e94dc306f9825b2e0ca323f2728b7fbd8baf3dde9c46a6f411782963831"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels025_seed17/test/per_frame_class.csv",
+      "bytes": 85647,
+      "sha256": "28e810e2a5f30ddafab43dd90c0fdf0174b77c67802d66894a3c59fc12108ac0"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels025_seed17/test/per_patient.csv",
+      "bytes": 4755,
+      "sha256": "ffa2cfd830b06e48a8343a051141d0d9ad13ee46b3dc1cff791ffe104ae3e2de"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels025_seed17/test/per_patient_class.csv",
+      "bytes": 14437,
+      "sha256": "37c11e69b3fc001059b1c51ae453cb9c2b5eb910a74b81468e0da72c2c1a337f"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels025_seed17/test/stratified.csv",
+      "bytes": 1133,
+      "sha256": "3f6906cbc054bc5a9afe7bc0112cc23f23dcaa30219100c78ea813296f67e822"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels025_seed17/test/summary.json",
+      "bytes": 4283,
+      "sha256": "0a9bd13352bd11edca8c90deba527581e9cc6e52670a898dc117006a53ac39b9"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels025_seed17/training_complete.json",
+      "bytes": 348,
+      "sha256": "802eb5956eca45a82f13231e2daa899bd0b952e1599b1084c86d08f55f8f3352"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels025_seed29/annotation_budget.json",
+      "bytes": 2138,
+      "sha256": "adc0a0a88296b425f229f5b127f45d34a6fb27ef5e771db8ea5f3b90d1f1ce49"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels025_seed29/contract.json",
+      "bytes": 2818,
+      "sha256": "fb3e5143acf7613d9e9f0d4558b65cb0df8bb121ccb259db577652d6b2a6637b"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels025_seed29/hardware.json",
+      "bytes": 601,
+      "sha256": "fb0794b93a4c8758117d44d12f324c433e03738e9a190762dbb8833537f0d6d7"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels025_seed29/history.csv",
+      "bytes": 17673,
+      "sha256": "a0b76325df1c0e85566c14233bb7ec22c63e90ed531ece39ae5fc90211e2ab0a"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels025_seed29/latency.json",
+      "bytes": 898,
+      "sha256": "d8dab43d84473fa7aab52874403a05e850c7a999d3dc32b55200aceea2234191"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels025_seed29/temperature.json",
+      "bytes": 488,
+      "sha256": "f654c5dd8a4d673457bba6f77a9e888ce29dbb556cf6538eb687afcf797e326a"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels025_seed29/test/evaluation_identity.json",
+      "bytes": 220,
+      "sha256": "fe8b116c85f990d27e8995e5dc69e9427b9ababd5b3ae1b2fcbd1c18a22befa7"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels025_seed29/test/per_frame_class.csv",
+      "bytes": 85654,
+      "sha256": "e385bc10a144b3bdfbbe1725d91213904668eda88e7837e362e1ae2457b754d8"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels025_seed29/test/per_patient.csv",
+      "bytes": 4758,
+      "sha256": "d3d3cb77f126b1d3950479c63e6c6be4382094520df78d970cd76b8988bebe8c"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels025_seed29/test/per_patient_class.csv",
+      "bytes": 14431,
+      "sha256": "4c92b1c2033f42199b5c1465052ed01eecf03c7aa2cb00f3d63473c9e47072d4"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels025_seed29/test/stratified.csv",
+      "bytes": 1128,
+      "sha256": "bd0ce707a5f5054d5a3512d35ce4e5c8180bdb4b9fd41b850f7c5c3c8dfed3a2"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels025_seed29/test/summary.json",
+      "bytes": 4281,
+      "sha256": "5f056ac67235a67e8c0d2bc063db701cb3533c8259404c50bfd9287db8159183"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels025_seed29/training_complete.json",
+      "bytes": 348,
+      "sha256": "050ab687a398b5b4f71fde40ea127d5813f2ff07beb5e02a360dae2ac2999531"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels025_seed43/annotation_budget.json",
+      "bytes": 2138,
+      "sha256": "adc0a0a88296b425f229f5b127f45d34a6fb27ef5e771db8ea5f3b90d1f1ce49"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels025_seed43/contract.json",
+      "bytes": 2818,
+      "sha256": "baafadd41361524354c68716e6366d3586d4561653249b083524f0c63a4f7097"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels025_seed43/hardware.json",
+      "bytes": 601,
+      "sha256": "fb0794b93a4c8758117d44d12f324c433e03738e9a190762dbb8833537f0d6d7"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels025_seed43/history.csv",
+      "bytes": 17651,
+      "sha256": "df7d4cd7392e54307c4c4d92564ddf7df72eb99b9c503c84c4b93f750473fbb1"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels025_seed43/latency.json",
+      "bytes": 898,
+      "sha256": "4f41ddc93a0579f9f3e08a1469fcd4cc088e58c194d19e04bbaf4a0b3280f71e"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels025_seed43/temperature.json",
+      "bytes": 488,
+      "sha256": "375c2d7278cad785bac49245a9144edc958b76621c7594759a2ee88ebc4a3e36"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels025_seed43/test/evaluation_identity.json",
+      "bytes": 220,
+      "sha256": "415b6cca559d84bc3699acf32004155f543449ca5baf9ec9495218abf6a884fc"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels025_seed43/test/per_frame_class.csv",
+      "bytes": 85692,
+      "sha256": "6006042279c64d860c7fda9f34c10c94facc29c377274bca077e90512f2fb7a8"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels025_seed43/test/per_patient.csv",
+      "bytes": 4764,
+      "sha256": "843a03ceb39c338adb727cd9000d2fe4c76cc74f4a5c3aac2f17973f24581d4e"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels025_seed43/test/per_patient_class.csv",
+      "bytes": 14446,
+      "sha256": "17aaa85b1c97926f2dba0c42e090d5f0ec693911884ffe42646d3df40a882a99"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels025_seed43/test/stratified.csv",
+      "bytes": 1135,
+      "sha256": "22e099837c4a1c36d6c7a2884ffb25327acaad17d17f948880f2351f936fedbb"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels025_seed43/test/summary.json",
+      "bytes": 4277,
+      "sha256": "fd6ee5c3ec97bd283472646913003b261d8aec4c264926c831f6c3ee46145172"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels025_seed43/training_complete.json",
+      "bytes": 348,
+      "sha256": "3f5a619a47186466e879c356132cee2024585f2b59a5c59a2f636f11aa2ddeb3"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels100_seed17/annotation_budget.json",
+      "bytes": 8139,
+      "sha256": "b11be6462014ca29e0530804f918ef9ccb0ac63f5693db65ef79ca7ee4008b14"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels100_seed17/contract.json",
+      "bytes": 8817,
+      "sha256": "7d8aad495c02286584cde5f12fc4baaba956e2512458b573172a3f0158d39851"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels100_seed17/hardware.json",
+      "bytes": 601,
+      "sha256": "fb0794b93a4c8758117d44d12f324c433e03738e9a190762dbb8833537f0d6d7"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels100_seed17/history.csv",
+      "bytes": 17624,
+      "sha256": "56e3a27133b7db906ba06c7d0bc799c8ba6d711dabe87e28e3a0a2429a528744"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels100_seed17/latency.json",
+      "bytes": 940,
+      "sha256": "07e0874a86acea936ee1b05ac4c8202ec1cc048397cc4d0528f10dad5f53fc00"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels100_seed17/temperature.json",
+      "bytes": 489,
+      "sha256": "f97012cb0b9bb6a5a5c8d2fc04d86d23b6bd21dd15fc32085066127f65897fa0"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels100_seed17/test/evaluation_identity.json",
+      "bytes": 221,
+      "sha256": "9c2a892a8e5866e937eca32de2c140779e42e48f44cb86055bf6333cd4264d78"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels100_seed17/test/per_frame_class.csv",
+      "bytes": 85694,
+      "sha256": "31bf7faf23401d3f8757b480175d4924c746d27ce357b8089232adc8d480d500"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels100_seed17/test/per_patient.csv",
+      "bytes": 4759,
+      "sha256": "10b83a6b6fafb2d112c921cd826110598fe0c06df60b7fa886ef929cec0bcd4d"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels100_seed17/test/per_patient_class.csv",
+      "bytes": 14459,
+      "sha256": "6688a245947dd25f22e12b94dd7e14ac4184d2d752c853842076e982755755f7"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels100_seed17/test/stratified.csv",
+      "bytes": 1138,
+      "sha256": "a6a3220dcb58da934426e7ca3436b63ae0105f23064a5a53a0e033713378865b"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels100_seed17/test/summary.json",
+      "bytes": 4714,
+      "sha256": "bebe9faca36eb59b27318fc05d60ad5ce762623bbe05dc28736937643865610a"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels100_seed17/training_complete.json",
+      "bytes": 347,
+      "sha256": "525e376ad066d99fa7abcd7fe092ff6a113daf7d4ceef4ca4e17899750bc1c7f"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels100_seed29/annotation_budget.json",
+      "bytes": 8139,
+      "sha256": "b11be6462014ca29e0530804f918ef9ccb0ac63f5693db65ef79ca7ee4008b14"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels100_seed29/contract.json",
+      "bytes": 8817,
+      "sha256": "17fafb73b5013dc84955abb1e74f87947edadb7987f23bc59e9b11a51b0101c5"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels100_seed29/hardware.json",
+      "bytes": 601,
+      "sha256": "fb0794b93a4c8758117d44d12f324c433e03738e9a190762dbb8833537f0d6d7"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels100_seed29/history.csv",
+      "bytes": 17626,
+      "sha256": "a31044cbe747d08cd07cf50298e16a312e4ed01f39ea4cc645955b39656ea3f1"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels100_seed29/latency.json",
+      "bytes": 938,
+      "sha256": "a5b2a7ed7ec9a544012f3d87f3aac3e720f5c3af90540991b17f6ffce548d271"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels100_seed29/temperature.json",
+      "bytes": 489,
+      "sha256": "a655f78e9cfde35fa1c8cae1eb6ef68d55e549e94fd1212a2ba68981a8f4184a"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels100_seed29/test/evaluation_identity.json",
+      "bytes": 220,
+      "sha256": "3f8b34180e21f1e64223cf6c869609e8186b1b8d6982cd128be3346a4bc7d4f4"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels100_seed29/test/per_frame_class.csv",
+      "bytes": 85739,
+      "sha256": "b6f69345210cd388fba004b69cc5cef42fe514c02da3e43845ecc8c751597a35"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels100_seed29/test/per_patient.csv",
+      "bytes": 4749,
+      "sha256": "014485c9599be54e90b0c02d6aca8a599ea9d5801fec94a290a912d20eb63dc1"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels100_seed29/test/per_patient_class.csv",
+      "bytes": 14428,
+      "sha256": "579c98784254e973645cb0e3b5a1b804505c29a72961dd0c88ffdea5b5599f86"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels100_seed29/test/stratified.csv",
+      "bytes": 1140,
+      "sha256": "a92cff2ee8b31e15000ee397cc8c7ac9b12939a6e0e154f12414d21360c628ef"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels100_seed29/test/summary.json",
+      "bytes": 4757,
+      "sha256": "50c06f70a220c61f0b77c209ab0a8cf1560dcdc4c1dd7811992b9e62982f8508"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels100_seed29/training_complete.json",
+      "bytes": 347,
+      "sha256": "ae4f6ff315716dd470bc9ce8d65e00ef15f5df2c81bef59854395de5c1f052b2"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels100_seed43/annotation_budget.json",
+      "bytes": 8139,
+      "sha256": "b11be6462014ca29e0530804f918ef9ccb0ac63f5693db65ef79ca7ee4008b14"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels100_seed43/contract.json",
+      "bytes": 8817,
+      "sha256": "0c485d74746c5f759caeb995235711ea2a70d5bc19e9aabaa0ede6903f5374c1"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels100_seed43/hardware.json",
+      "bytes": 601,
+      "sha256": "fb0794b93a4c8758117d44d12f324c433e03738e9a190762dbb8833537f0d6d7"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels100_seed43/history.csv",
+      "bytes": 17623,
+      "sha256": "9677778584cf01f3e2c8e9401691a90750c8dc450637e8670a54ffb5c6a3e3af"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels100_seed43/latency.json",
+      "bytes": 938,
+      "sha256": "35a4b7e151191a4c2e02f0fb5b0caed0398df744394c373c4118c8f10a8e41c3"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels100_seed43/temperature.json",
+      "bytes": 490,
+      "sha256": "803e3b949b249685bce4ccbf1766f4500bfbedc2d5f9fa0de8f3161d395cbbd9"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels100_seed43/test/evaluation_identity.json",
+      "bytes": 221,
+      "sha256": "f3475ab8159b5ad78e021f0ce1ce8410f7df9eb28d3f5d3298e5cf9f17c591dc"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels100_seed43/test/per_frame_class.csv",
+      "bytes": 85770,
+      "sha256": "0509e40f16d961caaf4d6901f467a92657114fd55f94d56316799f29a09bfb7b"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels100_seed43/test/per_patient.csv",
+      "bytes": 4758,
+      "sha256": "7c9ca705ce58c8a480f6be6186f8f48d4f4d2468990bb791b8034b59f9374af0"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels100_seed43/test/per_patient_class.csv",
+      "bytes": 14453,
+      "sha256": "028855724bd65ca77640dda47edac267ac97a42db3536cea0385f6fb6f4c2275"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels100_seed43/test/stratified.csv",
+      "bytes": 1135,
+      "sha256": "3eb8327352310f8de0c7714bc3944706c72a97f86aba8188682dbf9f44b0dd0a"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels100_seed43/test/summary.json",
+      "bytes": 4741,
+      "sha256": "b370eee730dee34f9b4259c4c45e309777540de12665a74efa56ceac01b3e52a"
+    },
+    {
+      "path": "results/archived_runs/mean_teacher_labels100_seed43/training_complete.json",
+      "bytes": 347,
+      "sha256": "51239f8d885a7ce05d66b8f1a93bf82cac99a228ea716a2c40bd261fcb0f417d"
+    },
+    {
+      "path": "results/archived_runs/segformer_b0_labels025_seed17/annotation_budget.json",
+      "bytes": 2138,
+      "sha256": "adc0a0a88296b425f229f5b127f45d34a6fb27ef5e771db8ea5f3b90d1f1ce49"
+    },
+    {
+      "path": "results/archived_runs/segformer_b0_labels025_seed17/best_fp32_revalidation.json",
+      "bytes": 201,
+      "sha256": "9b5ae816e9c381e40ad3bb48431aa8b9d10720ab33fcc81ea3945f7e0391fde8"
+    },
+    {
+      "path": "results/archived_runs/segformer_b0_labels025_seed17/contract.json",
+      "bytes": 2818,
+      "sha256": "3b9911991308dbe250f6cd9e1f5458b3251eef17d3691afd5162b9b39694f59b"
+    },
+    {
+      "path": "results/archived_runs/segformer_b0_labels025_seed17/hardware.json",
+      "bytes": 601,
+      "sha256": "fb0794b93a4c8758117d44d12f324c433e03738e9a190762dbb8833537f0d6d7"
+    },
+    {
+      "path": "results/archived_runs/segformer_b0_labels025_seed17/history.csv",
+      "bytes": 14875,
+      "sha256": "8b385c6663e0c5e3be00da672a2f53595ff9a669c82c18ccdb7c71da69f362b0"
+    },
+    {
+      "path": "results/archived_runs/segformer_b0_labels025_seed17/latency.json",
+      "bytes": 936,
+      "sha256": "5f9fb0cf8d16d9b3bc46352233a7b73a5982341330871813a31c175ad0e58899"
+    },
+    {
+      "path": "results/archived_runs/segformer_b0_labels025_seed17/numerical_precision.json",
+      "bytes": 504,
+      "sha256": "0dc5f165153c366b752e0c1387c24b1dbe50e489655950ad4661e65633ef397c"
+    },
+    {
+      "path": "results/archived_runs/segformer_b0_labels025_seed17/temperature.json",
+      "bytes": 489,
+      "sha256": "06cae2fff53c29dd5d39823a4a09e4dd0cedd2bb44e4a726e7364b80a231e9df"
+    },
+    {
+      "path": "results/archived_runs/segformer_b0_labels025_seed17/test/evaluation_identity.json",
+      "bytes": 220,
+      "sha256": "e9eb5ee169339a62f9f278fe1c4fcb74ab4208692a20f29fa10b27ae58d0dcf3"
+    },
+    {
+      "path": "results/archived_runs/segformer_b0_labels025_seed17/test/per_frame_class.csv",
+      "bytes": 85623,
+      "sha256": "d759773521ef19df708e83697705818a554525c6dc90bcf541a72426a0cbf7d6"
+    },
+    {
+      "path": "results/archived_runs/segformer_b0_labels025_seed17/test/per_patient.csv",
+      "bytes": 4757,
+      "sha256": "5cc380793700b85acdf64f940008e4e27b6c7040c9bb16f413d7138281931239"
+    },
+    {
+      "path": "results/archived_runs/segformer_b0_labels025_seed17/test/per_patient_class.csv",
+      "bytes": 14434,
+      "sha256": "569c3c74b2330441aa05ab678e5b7dc0b31fdbbaabccde34927aecd43d6265e3"
+    },
+    {
+      "path": "results/archived_runs/segformer_b0_labels025_seed17/test/stratified.csv",
+      "bytes": 1135,
+      "sha256": "03bf3b634487e64c8947ad7128eb9ed3ebafc1d69668fc90846b1661e2ce100a"
+    },
+    {
+      "path": "results/archived_runs/segformer_b0_labels025_seed17/test/summary.json",
+      "bytes": 4896,
+      "sha256": "a95e27d70e1209abb7e1bc55e8796c7ced642b641ba86218c917f12117daac3e"
+    },
+    {
+      "path": "results/archived_runs/segformer_b0_labels025_seed17/training_complete.json",
+      "bytes": 921,
+      "sha256": "48c26072b7f0f71cc85997318c8b6b77bb13bb3a7637b27f3f606098d07d71b4"
+    },
+    {
+      "path": "results/archived_runs/segformer_b0_labels025_seed29/annotation_budget.json",
+      "bytes": 2138,
+      "sha256": "adc0a0a88296b425f229f5b127f45d34a6fb27ef5e771db8ea5f3b90d1f1ce49"
+    },
+    {
+      "path": "results/archived_runs/segformer_b0_labels025_seed29/contract.json",
+      "bytes": 2818,
+      "sha256": "e0b16970ab730741a49f52ed8720fbe5cb523dfe7209b64c2215d845ccdd6009"
+    },
+    {
+      "path": "results/archived_runs/segformer_b0_labels025_seed29/hardware.json",
+      "bytes": 601,
+      "sha256": "fb0794b93a4c8758117d44d12f324c433e03738e9a190762dbb8833537f0d6d7"
+    },
+    {
+      "path": "results/archived_runs/segformer_b0_labels025_seed29/history.csv",
+      "bytes": 14918,
+      "sha256": "a834b325104f2ee24079286bc148b9d360c684313c2c8abb0ea812aa0040ac20"
+    },
+    {
+      "path": "results/archived_runs/segformer_b0_labels025_seed29/latency.json",
+      "bytes": 936,
+      "sha256": "7236a378747d86fbbb6c555a58b4e5798acd017b6407e5e06ae6bc044955f9d6"
+    },
+    {
+      "path": "results/archived_runs/segformer_b0_labels025_seed29/numerical_precision.json",
+      "bytes": 363,
+      "sha256": "dd5f6ac8367c9838ac85c88329df0831327fd7989c992d75e7a8ee949f9bbe03"
+    },
+    {
+      "path": "results/archived_runs/segformer_b0_labels025_seed29/temperature.json",
+      "bytes": 490,
+      "sha256": "3da7f11e42ceb6f47e45f0030cfb0e177ac9e35c7a2c2e303f5d3f5494521b58"
+    },
+    {
+      "path": "results/archived_runs/segformer_b0_labels025_seed29/test/evaluation_identity.json",
+      "bytes": 221,
+      "sha256": "d3b8173327708318bb5cf0843c1012ac7f9b1b7940a44eb12889282c9ddf5c7d"
+    },
+    {
+      "path": "results/archived_runs/segformer_b0_labels025_seed29/test/per_frame_class.csv",
+      "bytes": 85657,
+      "sha256": "252066ef2aee1edff426fb077bba85995f21a12f7b69f277d328588ec16e3005"
+    },
+    {
+      "path": "results/archived_runs/segformer_b0_labels025_seed29/test/per_patient.csv",
+      "bytes": 4752,
+      "sha256": "1f7115a96de2351248aba90a47354b480bb247eb250ad516ce4f3edb89ee6d9c"
+    },
+    {
+      "path": "results/archived_runs/segformer_b0_labels025_seed29/test/per_patient_class.csv",
+      "bytes": 14416,
+      "sha256": "8bce66e1808b03742cfb5f8e89381fe5c5eccfd979d7cafd6beffdc93bf7d59c"
+    },
+    {
+      "path": "results/archived_runs/segformer_b0_labels025_seed29/test/stratified.csv",
+      "bytes": 1129,
+      "sha256": "9b626950b657fa806a43ec669e1675fb37922080976e4920c3709120c7fe6b93"
+    },
+    {
+      "path": "results/archived_runs/segformer_b0_labels025_seed29/test/summary.json",
+      "bytes": 4762,
+      "sha256": "d5704d6ee840921c9c418fe41b299ffdd9aa6b7c04ddd244deb61580bbd1b97f"
+    },
+    {
+      "path": "results/archived_runs/segformer_b0_labels025_seed29/training_complete.json",
+      "bytes": 769,
+      "sha256": "55a7d0fb40353bbe298a4c1c30a8df95b1d8788027e0e281e9f2c26ed4aa146f"
+    },
+    {
+      "path": "results/archived_runs/segformer_b0_labels025_seed43/annotation_budget.json",
+      "bytes": 2138,
+      "sha256": "adc0a0a88296b425f229f5b127f45d34a6fb27ef5e771db8ea5f3b90d1f1ce49"
+    },
+    {
+      "path": "results/archived_runs/segformer_b0_labels025_seed43/contract.json",
+      "bytes": 2818,
+      "sha256": "bf51e5389cd70c1f1569ddb0c0222c39f7f97acbc79e7d54dc3ba9b7f60a89d7"
+    },
+    {
+      "path": "results/archived_runs/segformer_b0_labels025_seed43/hardware.json",
+      "bytes": 601,
+      "sha256": "fb0794b93a4c8758117d44d12f324c433e03738e9a190762dbb8833537f0d6d7"
+    },
+    {
+      "path": "results/archived_runs/segformer_b0_labels025_seed43/history.csv",
+      "bytes": 14908,
+      "sha256": "1adb9d402c56a19b5d3940f14fa52ae63124cc61515e1df0d2fb3bfdaa6279aa"
+    },
+    {
+      "path": "results/archived_runs/segformer_b0_labels025_seed43/latency.json",
+      "bytes": 936,
+      "sha256": "de29de3d291db2202046fa124906a6228576d3e9f87803f473a28f995419557f"
+    },
+    {
+      "path": "results/archived_runs/segformer_b0_labels025_seed43/numerical_precision.json",
+      "bytes": 363,
+      "sha256": "dd5f6ac8367c9838ac85c88329df0831327fd7989c992d75e7a8ee949f9bbe03"
+    },
+    {
+      "path": "results/archived_runs/segformer_b0_labels025_seed43/temperature.json",
+      "bytes": 490,
+      "sha256": "329a005d62580b6b976fcc3b678fa76af39462069d702f893ad17ffdc4696674"
+    },
+    {
+      "path": "results/archived_runs/segformer_b0_labels025_seed43/test/evaluation_identity.json",
+      "bytes": 221,
+      "sha256": "aca72f0ccdad824b99ff2680e9353ceed725fd622653aca87b1b8c98ecb13acf"
+    },
+    {
+      "path": "results/archived_runs/segformer_b0_labels025_seed43/test/per_frame_class.csv",
+      "bytes": 85640,
+      "sha256": "9544e2d1a0fb21db5fabb6d0d2c527d1e0c55aad095560c64638952c10aebd0e"
+    },
+    {
+      "path": "results/archived_runs/segformer_b0_labels025_seed43/test/per_patient.csv",
+      "bytes": 4748,
+      "sha256": "4bf173353fcf01219e37074ca49bdff92a11d497bc918ac1abec5d91691e4a4f"
+    },
+    {
+      "path": "results/archived_runs/segformer_b0_labels025_seed43/test/per_patient_class.csv",
+      "bytes": 14461,
+      "sha256": "41b9457cb22b1c3dc410595d11441bf7d1dcb40d59e5a0e7e0b7048378650798"
+    },
+    {
+      "path": "results/archived_runs/segformer_b0_labels025_seed43/test/stratified.csv",
+      "bytes": 1132,
+      "sha256": "e0030dbb7742ef46c5cff04f9238a1b49fcea3d766bf51a4eac5af95366a4cb9"
+    },
+    {
+      "path": "results/archived_runs/segformer_b0_labels025_seed43/test/summary.json",
+      "bytes": 4738,
+      "sha256": "cbd4bd993769b6ce656cd9e966396f02570665fcb98b79408807795634d559c4"
+    },
+    {
+      "path": "results/archived_runs/segformer_b0_labels025_seed43/training_complete.json",
+      "bytes": 769,
+      "sha256": "4950ca31a2ef9a9cc3a7d4658f09f6e64ac4708fa7da7628a4682eedb029e2fd"
+    },
+    {
+      "path": "results/archived_runs/unet_labels025_seed17/annotation_budget.json",
+      "bytes": 2138,
+      "sha256": "adc0a0a88296b425f229f5b127f45d34a6fb27ef5e771db8ea5f3b90d1f1ce49"
+    },
+    {
+      "path": "results/archived_runs/unet_labels025_seed17/contract.json",
+      "bytes": 2810,
+      "sha256": "9beb57e6ade313eb2a725f788f0ba7c4d0adc16534f8bc8ded2ff150859301b7"
+    },
+    {
+      "path": "results/archived_runs/unet_labels025_seed17/hardware.json",
+      "bytes": 601,
+      "sha256": "fb0794b93a4c8758117d44d12f324c433e03738e9a190762dbb8833537f0d6d7"
+    },
+    {
+      "path": "results/archived_runs/unet_labels025_seed17/history.csv",
+      "bytes": 14978,
+      "sha256": "290757a4e236c53d7bfef310c0089328a646b699311220edd490e64957037855"
+    },
+    {
+      "path": "results/archived_runs/unet_labels025_seed17/latency.json",
+      "bytes": 898,
+      "sha256": "5f4b3cd70fb463ad2e44c3a0a41eeb1bf6b03d87eb7184c4b18c371ad271950a"
+    },
+    {
+      "path": "results/archived_runs/unet_labels025_seed17/temperature.json",
+      "bytes": 480,
+      "sha256": "59e184e7e5233c885f288754f06b5ec623b99eb6e648548588a206f57f5af6d7"
+    },
+    {
+      "path": "results/archived_runs/unet_labels025_seed17/test/evaluation_identity.json",
+      "bytes": 220,
+      "sha256": "9714050ace050f1b0e6f8a52a384d368fddf28def4891e4429fa2bc51bf4cd8f"
+    },
+    {
+      "path": "results/archived_runs/unet_labels025_seed17/test/per_frame_class.csv",
+      "bytes": 85657,
+      "sha256": "14bf57bd57863c423eaef5dd99a9510f29056b4992d24003fa3bc482696864c2"
+    },
+    {
+      "path": "results/archived_runs/unet_labels025_seed17/test/per_patient.csv",
+      "bytes": 4750,
+      "sha256": "c7edf5d81c83f8295cf557af7954373638e15d6ce295d90f519fb0fab9abc5e4"
+    },
+    {
+      "path": "results/archived_runs/unet_labels025_seed17/test/per_patient_class.csv",
+      "bytes": 14446,
+      "sha256": "4d5a05cf3370e8d0f555c1a76da474b6f6c3271be32ed5edb1573c6563575d3c"
+    },
+    {
+      "path": "results/archived_runs/unet_labels025_seed17/test/stratified.csv",
+      "bytes": 1130,
+      "sha256": "ef8ccc124defb07d097702c1a51da9a8607fcb7871b1d3da04d82a6b1e2849cb"
+    },
+    {
+      "path": "results/archived_runs/unet_labels025_seed17/test/summary.json",
+      "bytes": 4289,
+      "sha256": "eeb91c074fec7e655da4b09010a91e24ace1f0e77ff8048505a95bfe11b73ae2"
+    },
+    {
+      "path": "results/archived_runs/unet_labels025_seed17/training_complete.json",
+      "bytes": 348,
+      "sha256": "cb53ae9b7aeee56aa31cb6f72adf84df6bd71f41190c586970698709ed58a9ed"
+    },
+    {
+      "path": "results/archived_runs/unet_labels025_seed29/annotation_budget.json",
+      "bytes": 2138,
+      "sha256": "adc0a0a88296b425f229f5b127f45d34a6fb27ef5e771db8ea5f3b90d1f1ce49"
+    },
+    {
+      "path": "results/archived_runs/unet_labels025_seed29/contract.json",
+      "bytes": 2810,
+      "sha256": "aa7f564fcd44a41545dad6d98ee912d942881e13edb1ae5f2c248ca72fc779eb"
+    },
+    {
+      "path": "results/archived_runs/unet_labels025_seed29/hardware.json",
+      "bytes": 601,
+      "sha256": "fb0794b93a4c8758117d44d12f324c433e03738e9a190762dbb8833537f0d6d7"
+    },
+    {
+      "path": "results/archived_runs/unet_labels025_seed29/history.csv",
+      "bytes": 14978,
+      "sha256": "8651388da48b02063934e8841e8e4c635f2105ba704c9691a4854ae89ba83049"
+    },
+    {
+      "path": "results/archived_runs/unet_labels025_seed29/latency.json",
+      "bytes": 898,
+      "sha256": "830b731066259c6ca5c28d18599687a3a2d5348b9fbeec160fa073895f599b34"
+    },
+    {
+      "path": "results/archived_runs/unet_labels025_seed29/temperature.json",
+      "bytes": 481,
+      "sha256": "0ec607d6362a4904f0170a242d4eccf688e0c0a462247122b9642be609df5834"
+    },
+    {
+      "path": "results/archived_runs/unet_labels025_seed29/test/evaluation_identity.json",
+      "bytes": 220,
+      "sha256": "b0ce1a61a551c259f7e3d6245cec9a07de376f238fadf4447be5fc48f6ea5476"
+    },
+    {
+      "path": "results/archived_runs/unet_labels025_seed29/test/per_frame_class.csv",
+      "bytes": 85630,
+      "sha256": "f836a2fade28362c9b14d75167a2ea8a63c2aa27085afa3fb505306e26966b77"
+    },
+    {
+      "path": "results/archived_runs/unet_labels025_seed29/test/per_patient.csv",
+      "bytes": 4753,
+      "sha256": "a9e85fa8f3a8b817fc01d75f6229b325d6d370a90574820c63d8b7ea03e0d158"
+    },
+    {
+      "path": "results/archived_runs/unet_labels025_seed29/test/per_patient_class.csv",
+      "bytes": 14428,
+      "sha256": "df22e93159278772c5528214deb6723e3ae19e5f3b3938d2e1600b28bbb0aa8d"
+    },
+    {
+      "path": "results/archived_runs/unet_labels025_seed29/test/stratified.csv",
+      "bytes": 1135,
+      "sha256": "15b702203ddd2ab85563d9f8cd7aab2d0582eb270ecf74beb00d797b989ecfa3"
+    },
+    {
+      "path": "results/archived_runs/unet_labels025_seed29/test/summary.json",
+      "bytes": 4273,
+      "sha256": "4ea5370e7e1fa3e8e9aff815afcc1e9adc37842718da50b0f64c3cbff64a9cb1"
+    },
+    {
+      "path": "results/archived_runs/unet_labels025_seed29/training_complete.json",
+      "bytes": 349,
+      "sha256": "285ad6faa3f12e63c668858aec0eba000c29a0d67feaec174df134af94da3e5b"
+    },
+    {
+      "path": "results/archived_runs/unet_labels025_seed43/annotation_budget.json",
+      "bytes": 2138,
+      "sha256": "adc0a0a88296b425f229f5b127f45d34a6fb27ef5e771db8ea5f3b90d1f1ce49"
+    },
+    {
+      "path": "results/archived_runs/unet_labels025_seed43/contract.json",
+      "bytes": 2810,
+      "sha256": "ffd817fe9c1aa71f8c67eeeb19d7f92daff803686eb54aede501d0ff0c981bc9"
+    },
+    {
+      "path": "results/archived_runs/unet_labels025_seed43/hardware.json",
+      "bytes": 601,
+      "sha256": "fb0794b93a4c8758117d44d12f324c433e03738e9a190762dbb8833537f0d6d7"
+    },
+    {
+      "path": "results/archived_runs/unet_labels025_seed43/history.csv",
+      "bytes": 14970,
+      "sha256": "5d809302dc4d03d4484b3604b50bfa3bf393d8a750fd7d4a3a6673bfd2fc297d"
+    },
+    {
+      "path": "results/archived_runs/unet_labels025_seed43/latency.json",
+      "bytes": 899,
+      "sha256": "7fbefc957b61ba7872ea8d85a00f99b659b23539f421a64ef76830b9dde89ffc"
+    },
+    {
+      "path": "results/archived_runs/unet_labels025_seed43/temperature.json",
+      "bytes": 482,
+      "sha256": "db373eeeecccaedd5a4517b1cf71c8ca30e06e978d168ee48a3d6a29e33707dd"
+    },
+    {
+      "path": "results/archived_runs/unet_labels025_seed43/test/evaluation_identity.json",
+      "bytes": 221,
+      "sha256": "125e5f9a43dfa1a6469ac0cc5858c255c4884b16722dfc1931bd65a149a86edb"
+    },
+    {
+      "path": "results/archived_runs/unet_labels025_seed43/test/per_frame_class.csv",
+      "bytes": 85666,
+      "sha256": "c0295786ffa61faac027044b26d4465a76f0eb6fe81a3f0280465f0bd1858055"
+    },
+    {
+      "path": "results/archived_runs/unet_labels025_seed43/test/per_patient.csv",
+      "bytes": 4756,
+      "sha256": "922444e991c522a7bd33c5a5b69bcc6445cb69709c0ebe077ab28e18392b0898"
+    },
+    {
+      "path": "results/archived_runs/unet_labels025_seed43/test/per_patient_class.csv",
+      "bytes": 14427,
+      "sha256": "51ed737b3c6b640d05db2e494287c4d244adda8b995f147721f1c9dce1afa355"
+    },
+    {
+      "path": "results/archived_runs/unet_labels025_seed43/test/stratified.csv",
+      "bytes": 1132,
+      "sha256": "0721d2666d3ebd5b4a068c78ce974dc2971593ac18566a29bf0563e33020bd8f"
+    },
+    {
+      "path": "results/archived_runs/unet_labels025_seed43/test/summary.json",
+      "bytes": 4242,
+      "sha256": "d2d8ada8db2d6b87351d8d166f633442a9c4a0576021eb0f7dff4c8c6ade0cd0"
+    },
+    {
+      "path": "results/archived_runs/unet_labels025_seed43/training_complete.json",
+      "bytes": 349,
+      "sha256": "c79ee4a309f21fba80ed128a362392ef6a913ed51ebfeb919beac380dd7a5c17"
+    },
+    {
+      "path": "results/archived_runs/unet_labels100_seed17/annotation_budget.json",
+      "bytes": 8139,
+      "sha256": "b11be6462014ca29e0530804f918ef9ccb0ac63f5693db65ef79ca7ee4008b14"
+    },
+    {
+      "path": "results/archived_runs/unet_labels100_seed17/contract.json",
+      "bytes": 8809,
+      "sha256": "661f71c80e84d98f6951cbbed99aeedc517a41458008d8816fd0d487232141ae"
+    },
+    {
+      "path": "results/archived_runs/unet_labels100_seed17/hardware.json",
+      "bytes": 601,
+      "sha256": "fb0794b93a4c8758117d44d12f324c433e03738e9a190762dbb8833537f0d6d7"
+    },
+    {
+      "path": "results/archived_runs/unet_labels100_seed17/history.csv",
+      "bytes": 14911,
+      "sha256": "8b86b3264f6cecf6edcf6387b64431fc296f1aba8585ab0a38dfb9a3a0bfc7f3"
+    },
+    {
+      "path": "results/archived_runs/unet_labels100_seed17/latency.json",
+      "bytes": 939,
+      "sha256": "9beab3feecd8ebf888167763c82d149dad4640c8186db9a251dfe5ff215ad90e"
+    },
+    {
+      "path": "results/archived_runs/unet_labels100_seed17/temperature.json",
+      "bytes": 482,
+      "sha256": "2400a10ec884fd116a60a55aa5abd000c3775ef4b601a3b6b19f38d55b7e3dcb"
+    },
+    {
+      "path": "results/archived_runs/unet_labels100_seed17/test/evaluation_identity.json",
+      "bytes": 221,
+      "sha256": "7b15e9049b004d2465b03bf92ec1b917f0b5879838405c9ff7aa3abf6beb607b"
+    },
+    {
+      "path": "results/archived_runs/unet_labels100_seed17/test/per_frame_class.csv",
+      "bytes": 85721,
+      "sha256": "70843c62a3a2bddb18553839e065b4e4372c5637984033e024d5ed8011b1bb1e"
+    },
+    {
+      "path": "results/archived_runs/unet_labels100_seed17/test/per_patient.csv",
+      "bytes": 4762,
+      "sha256": "d10dd545b306d8aaf3844fed4054ca020c02bbe4e624e6764db00a61e7a36b5d"
+    },
+    {
+      "path": "results/archived_runs/unet_labels100_seed17/test/per_patient_class.csv",
+      "bytes": 14449,
+      "sha256": "5fc841a1ba04379f57cd80cb30ed7ac87a1752207344d0cbd50a9d807b5ea1cc"
+    },
+    {
+      "path": "results/archived_runs/unet_labels100_seed17/test/stratified.csv",
+      "bytes": 1135,
+      "sha256": "3c34dc5e78afab3b9a0faf7276d5fef9474a1cf2ac8e813833d76f64e2d1c84d"
+    },
+    {
+      "path": "results/archived_runs/unet_labels100_seed17/test/summary.json",
+      "bytes": 4719,
+      "sha256": "f8f81935408e0af940826d5d6d832df1bcde618d57282d6f9230c206ac7d1a5f"
+    },
+    {
+      "path": "results/archived_runs/unet_labels100_seed17/training_complete.json",
+      "bytes": 347,
+      "sha256": "2d3f4fe40eb1d6062ed05a5750dc53eeeeb94d93d2453e8766ffd10dd1f7619c"
+    },
+    {
+      "path": "results/archived_runs/unet_labels100_seed29/annotation_budget.json",
+      "bytes": 8139,
+      "sha256": "b11be6462014ca29e0530804f918ef9ccb0ac63f5693db65ef79ca7ee4008b14"
+    },
+    {
+      "path": "results/archived_runs/unet_labels100_seed29/contract.json",
+      "bytes": 8809,
+      "sha256": "4a23cc5912fce00ec476eb52e38c12b5792ab52f6affef30198892f85b101866"
+    },
+    {
+      "path": "results/archived_runs/unet_labels100_seed29/hardware.json",
+      "bytes": 601,
+      "sha256": "fb0794b93a4c8758117d44d12f324c433e03738e9a190762dbb8833537f0d6d7"
+    },
+    {
+      "path": "results/archived_runs/unet_labels100_seed29/history.csv",
+      "bytes": 14916,
+      "sha256": "5d36f30f6c18e9692a70f30b14f20788a5209a2e80454e8ada3962f41f32872a"
+    },
+    {
+      "path": "results/archived_runs/unet_labels100_seed29/latency.json",
+      "bytes": 940,
+      "sha256": "60fc34447dd327688a64b591f8a4d505c3ad18fe3f491a07adccb4c1bc630bda"
+    },
+    {
+      "path": "results/archived_runs/unet_labels100_seed29/temperature.json",
+      "bytes": 481,
+      "sha256": "7d9302f3e00cbd4fb7326afa9dc8779b28168267fd58ce16a9000821c788c8be"
+    },
+    {
+      "path": "results/archived_runs/unet_labels100_seed29/test/evaluation_identity.json",
+      "bytes": 221,
+      "sha256": "2141a8def4fc6f77d91ea15ec68514fc1a15fde063bdaac74bb0f0482ca474a2"
+    },
+    {
+      "path": "results/archived_runs/unet_labels100_seed29/test/per_frame_class.csv",
+      "bytes": 85773,
+      "sha256": "46b38ef2cded9827bc082677ffb5608b063b9d96c591931fd0a5eafb9ec92e51"
+    },
+    {
+      "path": "results/archived_runs/unet_labels100_seed29/test/per_patient.csv",
+      "bytes": 4750,
+      "sha256": "da53070795623722d737dc3b8e14ba4fae2857749dfec896c39ca4c94f865c56"
+    },
+    {
+      "path": "results/archived_runs/unet_labels100_seed29/test/per_patient_class.csv",
+      "bytes": 14480,
+      "sha256": "444ca410c1941a353a114fbbda6721e2192d189837d8abbc6bbd165af80396f0"
+    },
+    {
+      "path": "results/archived_runs/unet_labels100_seed29/test/stratified.csv",
+      "bytes": 1140,
+      "sha256": "90733e0824c038d38ad3facaabe91c6a1194fbaaf73672713ab20f57727884de"
+    },
+    {
+      "path": "results/archived_runs/unet_labels100_seed29/test/summary.json",
+      "bytes": 4715,
+      "sha256": "04697bac540acab7db459d18ded2b2958bdbe5914e405f0c20b6e378e922624e"
+    },
+    {
+      "path": "results/archived_runs/unet_labels100_seed29/training_complete.json",
+      "bytes": 347,
+      "sha256": "94604b33ad3ea250e9589b11204177332cfc167f969287af092fa80559f89513"
+    },
+    {
+      "path": "results/archived_runs/unet_labels100_seed43/annotation_budget.json",
+      "bytes": 8139,
+      "sha256": "b11be6462014ca29e0530804f918ef9ccb0ac63f5693db65ef79ca7ee4008b14"
+    },
+    {
+      "path": "results/archived_runs/unet_labels100_seed43/contract.json",
+      "bytes": 8809,
+      "sha256": "3a4826dd908a1d8ded80c44e153dff5993292f90d9ce7126602576d581d0d67b"
+    },
+    {
+      "path": "results/archived_runs/unet_labels100_seed43/hardware.json",
+      "bytes": 601,
+      "sha256": "fb0794b93a4c8758117d44d12f324c433e03738e9a190762dbb8833537f0d6d7"
+    },
+    {
+      "path": "results/archived_runs/unet_labels100_seed43/history.csv",
+      "bytes": 14925,
+      "sha256": "395457a38fc70d0e48c464dfb2e3c60d3839aa06b603184d8fa2480a5add94fb"
+    },
+    {
+      "path": "results/archived_runs/unet_labels100_seed43/latency.json",
+      "bytes": 939,
+      "sha256": "827863add5f96dbc4f416b7b19bbda90fd54887d77a14ff201a6b61aecf2577b"
+    },
+    {
+      "path": "results/archived_runs/unet_labels100_seed43/temperature.json",
+      "bytes": 481,
+      "sha256": "a0f38d2a81322a23169eee2aeb4dfc14b1423987cbe5f19bc06e067bd2979521"
+    },
+    {
+      "path": "results/archived_runs/unet_labels100_seed43/test/evaluation_identity.json",
+      "bytes": 220,
+      "sha256": "85b225edf606df3c7f06583621e12d826465150b68125468fd1d3c0bfaef8b2f"
+    },
+    {
+      "path": "results/archived_runs/unet_labels100_seed43/test/per_frame_class.csv",
+      "bytes": 85750,
+      "sha256": "c5977954c29b10a0aa064f539c53c3fed6c74070f3b3b1e8d7d6425a60ba9ff8"
+    },
+    {
+      "path": "results/archived_runs/unet_labels100_seed43/test/per_patient.csv",
+      "bytes": 4760,
+      "sha256": "95e1b16a0d685a7b1524f044f80ced5f2d844fc87c3043b819c59c1fd18ea4e9"
+    },
+    {
+      "path": "results/archived_runs/unet_labels100_seed43/test/per_patient_class.csv",
+      "bytes": 14473,
+      "sha256": "0d817ba86c6fc4de61ac38234f84fb723159939c8b6aeddac91d6f32074d07c8"
+    },
+    {
+      "path": "results/archived_runs/unet_labels100_seed43/test/stratified.csv",
+      "bytes": 1134,
+      "sha256": "6433af8a132763a2586cfde67bab92e8c310eec4ab16f0a041f41dfec788fd37"
+    },
+    {
+      "path": "results/archived_runs/unet_labels100_seed43/test/summary.json",
+      "bytes": 4737,
+      "sha256": "3db4f2fecdaac97ccae06b04d1851f8a44712fa6f38746c79f91adba5646f29b"
+    },
+    {
+      "path": "results/archived_runs/unet_labels100_seed43/training_complete.json",
+      "bytes": 348,
+      "sha256": "06bbd43795a8629e60f563fad9ad86a04516e8c264a513cd3e02f4fcf916dcd4"
+    },
+    {
+      "path": "results/published/RESULTS.md",
+      "bytes": 1130,
+      "sha256": "724896469592065f1ee1b5b97a66bb6308e4438361547f659f788e760431d284"
+    },
+    {
+      "path": "results/published/external_status.json",
+      "bytes": 139,
+      "sha256": "adaa57d7b41f941320ebc6b871b070580eb2fd794c8c0fd7e434750b86524759"
+    },
+    {
+      "path": "results/published/gpu_preflight.json",
+      "bytes": 761,
+      "sha256": "be666765f2a3b48a1b905638a78353604aebf03f0a11146678044baab61e78b5"
+    },
+    {
+      "path": "results/published/paired_patient_bootstrap.csv",
+      "bytes": 974,
+      "sha256": "6591203fa51829595039f1a3366bbe1df410183ad67cd93dab3c2c9e23cb702c"
+    },
+    {
+      "path": "results/published/planned_jobs.json",
+      "bytes": 3263,
+      "sha256": "473a39065e0818582c249b3565d8c2e05e14c20a1bd1b2fed90e4eedbc4409a1"
+    },
+    {
+      "path": "results/published/results.json",
+      "bytes": 9497,
+      "sha256": "c15bcea50e7d0c3f0de88dcb0bde138997222255f8840248f15e5699d7be7696"
+    },
+    {
+      "path": "results/published/results_by_method.csv",
+      "bytes": 2524,
+      "sha256": "bb2225229569766b54c9dbae80a97bdc80293023d508fdf417534033b7ae199b"
+    },
+    {
+      "path": "results/tables/acceptance_curves.csv",
+      "bytes": 128212,
+      "sha256": "7ac1d6c7b201a00bd75d5530f2378dfaf907f060c79b1f9794fd1d8fda575e7a"
+    },
+    {
+      "path": "results/tables/additional_paired_comparisons.csv",
+      "bytes": 669,
+      "sha256": "015b3c9616fb5c81723570dddb2e4ece2b62515d49f816c94538436c410b4024"
+    },
+    {
+      "path": "results/tables/paired_patient_bootstrap.csv",
+      "bytes": 971,
+      "sha256": "88cb251a6a5ff4d837b7ed48ee0a0d72d368a5e71212a59bd688b1b87d68df0e"
+    },
+    {
+      "path": "results/tables/patient_scatter.csv",
+      "bytes": 4007,
+      "sha256": "78a49e8f1e92f04c0a1d92676635a691e7c8e54891ca9660635cce4aa4421f3c"
+    },
+    {
+      "path": "results/tables/per_run_recomputed.csv",
+      "bytes": 4746,
+      "sha256": "9f0ab95ee7adcbb07c4ccdd585457b06eedb755b5f1f3fe8d7086a9ef0ed9cfa"
+    },
+    {
+      "path": "results/tables/table1_main.csv",
+      "bytes": 1129,
+      "sha256": "996bf7708febe55f9093274a82552a3d80fe4a4f871fce3f0f6f17b2fc4d2883"
+    },
+    {
+      "path": "results/tables/table2_ablation.csv",
+      "bytes": 885,
+      "sha256": "39df3a7302a27b600b09f8d3c3d6d66253b007ed93949b0f5a113f3a4c352832"
+    },
+    {
+      "path": "results/tables/table3_budget_strata.csv",
+      "bytes": 1051,
+      "sha256": "bd0370ac49d27a6269a25275440787471f26f0f597910b058096d2c648792803"
+    },
+    {
+      "path": "results/tables/table4_calibration.csv",
+      "bytes": 1476,
+      "sha256": "b27cc68f28ab86d88b0fd39e4991c0272ca747bdeeced51028dced2f4b4b8ad0"
+    },
+    {
+      "path": "results/tables/validation_curves.csv",
+      "bytes": 170217,
+      "sha256": "4eab907f06702d5fb758306056e0b9619951489dda440a0b76894f9960c1eaa9"
+    },
+    {
+      "path": "results/tables/verification.json",
+      "bytes": 927,
+      "sha256": "30626451ad04fd603d43924c7e26e7b92b488658635e8753c4f4d0244ff8cf0f"
+    },
+    {
+      "path": "scripts/reproduce_results.py",
+      "bytes": 15333,
+      "sha256": "f67bccb9dbfb55e783ff57256e962153b31911790068d8b236b6136a99e70521"
+    },
+    {
+      "path": "scripts/verify_release.py",
+      "bytes": 2774,
+      "sha256": "8897300bb4642310be91a598bf649062da61755d2d885490d8f44b3b58b6c517"
+    },
+    {
+      "path": "tests/test_core.py",
+      "bytes": 17756,
+      "sha256": "ce77eaf38e77844191399a3d3c63259077016be62cde97e11a379e890ac76827"
+    },
+    {
+      "path": "tests/test_download.py",
+      "bytes": 18804,
+      "sha256": "699f78bc1f29b1139da95acfd26ac9f544a3138a2aa287d47178272f088b4b38"
+    },
+    {
+      "path": "tests/test_numerics.py",
+      "bytes": 11607,
+      "sha256": "837737d93faee160485c968677d07efdda2221caa87a00215aa8f5ab98d286a4"
+    },
+    {
+      "path": "tests/test_post_training.py",
+      "bytes": 8422,
+      "sha256": "4af5d93e0ad74f9be6005a8056c8c75ea4b0d48d1dcc183619ba6721c6e42136"
+    },
+    {
+      "path": "tests/test_release_records.py",
+      "bytes": 2311,
+      "sha256": "487918834d8011b4921c5b1feab666bbf61fa5344113911560290eb1fd0ea397"
+    }
+  ]
+}

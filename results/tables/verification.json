@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "runs": 33,
+  "configurations": 11,
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "test_patients": 50,
+  "test_frame_class_rows": 19800,
+  "published_bootstrap_comparisons_recomputed": 9,
+  "numeric_tolerance": 1e-10,
+  "bootstrap_seed": 20261029,
+  "bootstrap_repetitions": 2000,
+  "scatter_correlation": 0.9664424218542695,
+  "aces_higher_patients": 24,
+  "scope": "Reaggregation of supplied metric records and saved-bin ECE; no model training or pixel-level metric rerun.",
+  "calibration_scope": "NLL/Brier retained from saved summary records; probabilities are not included.",
+  "files": [
+    "acceptance_curves.csv",
+    "additional_paired_comparisons.csv",
+    "paired_patient_bootstrap.csv",
+    "patient_scatter.csv",
+    "per_run_recomputed.csv",
+    "table1_main.csv",
+    "table2_ablation.csv",
+    "table3_budget_strata.csv",
+    "table4_calibration.csv",
+    "validation_curves.csv"
+  ]
+}

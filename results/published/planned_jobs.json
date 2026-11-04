@@ -1,0 +1,171 @@
+{
+  "jobs": [
+    {
+      "method": "unet",
+      "label_fraction": 0.25,
+      "seed": 17
+    },
+    {
+      "method": "unet",
+      "label_fraction": 0.25,
+      "seed": 29
+    },
+    {
+      "method": "unet",
+      "label_fraction": 0.25,
+      "seed": 43
+    },
+    {
+      "method": "mean_teacher",
+      "label_fraction": 0.25,
+      "seed": 17
+    },
+    {
+      "method": "mean_teacher",
+      "label_fraction": 0.25,
+      "seed": 29
+    },
+    {
+      "method": "mean_teacher",
+      "label_fraction": 0.25,
+      "seed": 43
+    },
+    {
+      "method": "segformer_b0",
+      "label_fraction": 0.25,
+      "seed": 17
+    },
+    {
+      "method": "segformer_b0",
+      "label_fraction": 0.25,
+      "seed": 29
+    },
+    {
+      "method": "segformer_b0",
+      "label_fraction": 0.25,
+      "seed": 43
+    },
+    {
+      "method": "graph_supervised",
+      "label_fraction": 0.25,
+      "seed": 17
+    },
+    {
+      "method": "graph_supervised",
+      "label_fraction": 0.25,
+      "seed": 29
+    },
+    {
+      "method": "graph_supervised",
+      "label_fraction": 0.25,
+      "seed": 43
+    },
+    {
+      "method": "graph_confidence",
+      "label_fraction": 0.25,
+      "seed": 17
+    },
+    {
+      "method": "graph_confidence",
+      "label_fraction": 0.25,
+      "seed": 29
+    },
+    {
+      "method": "graph_confidence",
+      "label_fraction": 0.25,
+      "seed": 43
+    },
+    {
+      "method": "graph_gaussian",
+      "label_fraction": 0.25,
+      "seed": 17
+    },
+    {
+      "method": "graph_gaussian",
+      "label_fraction": 0.25,
+      "seed": 29
+    },
+    {
+      "method": "graph_gaussian",
+      "label_fraction": 0.25,
+      "seed": 43
+    },
+    {
+      "method": "aces_view_agnostic",
+      "label_fraction": 0.25,
+      "seed": 17
+    },
+    {
+      "method": "aces_view_agnostic",
+      "label_fraction": 0.25,
+      "seed": 29
+    },
+    {
+      "method": "aces_view_agnostic",
+      "label_fraction": 0.25,
+      "seed": 43
+    },
+    {
+      "method": "aces",
+      "label_fraction": 0.25,
+      "seed": 17
+    },
+    {
+      "method": "aces",
+      "label_fraction": 0.25,
+      "seed": 29
+    },
+    {
+      "method": "aces",
+      "label_fraction": 0.25,
+      "seed": 43
+    },
+    {
+      "method": "unet",
+      "label_fraction": 1.0,
+      "seed": 17
+    },
+    {
+      "method": "unet",
+      "label_fraction": 1.0,
+      "seed": 29
+    },
+    {
+      "method": "unet",
+      "label_fraction": 1.0,
+      "seed": 43
+    },
+    {
+      "method": "mean_teacher",
+      "label_fraction": 1.0,
+      "seed": 17
+    },
+    {
+      "method": "mean_teacher",
+      "label_fraction": 1.0,
+      "seed": 29
+    },
+    {
+      "method": "mean_teacher",
+      "label_fraction": 1.0,
+      "seed": 43
+    },
+    {
+      "method": "aces",
+      "label_fraction": 1.0,
+      "seed": 17
+    },
+    {
+      "method": "aces",
+      "label_fraction": 1.0,
+      "seed": 29
+    },
+    {
+      "method": "aces",
+      "label_fraction": 1.0,
+      "seed": 43
+    }
+  ],
+  "AP_Net": "not_included_as_validated_reproduction",
+  "evaluations_are_empirical_only": true
+}

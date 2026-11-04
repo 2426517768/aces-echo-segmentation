@@ -1,0 +1,7 @@
+# torch is installed separately from the official CUDA 12.8 wheel index.
+numpy==1.26.4
+scipy==1.13.1
+Pillow==11.2.1
+SimpleITK==2.4.1
+transformers==4.51.3
+opencv-python-headless==4.11.0.86

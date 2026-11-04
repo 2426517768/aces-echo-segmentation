@@ -1,0 +1,2 @@
+# Record-level reproduction only; no torch/GPU/image decoding.
+numpy==1.26.4

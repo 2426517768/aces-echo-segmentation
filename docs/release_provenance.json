@@ -1,0 +1,39 @@
+{
+  "code_source_archive": "ACES_RTX5060_OneClick.zip",
+  "code_source_sha256": "82e9b42320e12275a91b2210950c4d110817a5639ad7516123a02c166234e378",
+  "records_source_archive": "ACES_REVIEW_20261101_232301_177892.zip",
+  "records_source_sha256": "ba0b53a03669f75432c95ea85abccea429be1a43a738925b13c52f4eca5d863b",
+  "recorded_manifest_digest": "e8fb5d3a3bda28c4c5b40716d99a1c8cac581f4739e02b99763c0dcc153cecc2",
+  "source_code_hash_comparison": "all recorded v1.4 source file hashes match available source bytes before packaging",
+  "records": {
+    "runs": 33,
+    "configurations": 11,
+    "seeds": [
+      17,
+      29,
+      43
+    ],
+    "patient_split": {
+      "train": 400,
+      "val": 50,
+      "test": 50
+    }
+  },
+  "transformations": [
+    "Preserved aces package, launcher, downloader, Windows entry points and bootstrap bytes.",
+    "Moved experiment outputs under results/archived_runs and results/published; fresh training uses runs/ and results/ at runtime.",
+    "Exported actual recorded patient splits and label budgets; configured fresh preparation to use the explicit split file.",
+    "Normalized historical Windows paths in metadata snapshots; retained original digest identifiers rather than rewriting experiment identities.",
+    "Excluded terminal logs and local environment/install/cache artifacts from the public package.",
+    "Retained 64 original test cases; mocked host free disk in one CPU integration fixture; added three archived-record checks. Production disk guards unchanged."
+  ],
+  "availability": {
+    "original_ultrasound_images": false,
+    "reference_masks": false,
+    "prepared_npz_arrays": false,
+    "trained_checkpoints": false,
+    "per_frame_metrics": true,
+    "per_patient_metrics": true,
+    "history": true
+  }
+}

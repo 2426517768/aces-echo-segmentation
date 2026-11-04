@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Please cite the ACES manuscript and identify the repository commit used."
+type: software
+title: "ACES: matched semi-supervised echocardiographic segmentation"
+authors:
+  - family-names: Xu
+    given-names: Shiyun
+  - family-names: Xu
+    given-names: Shijia
+version: "1.0.0"
+abstract: "Code and experiment records for Effect of anatomical pseudo-label filtering on semi-supervised echocardiographic segmentation: A matched evaluation."
+keywords:
+  - echocardiography
+  - semi-supervised segmentation
+  - CAMUS
+  - anatomical pseudo-label filtering

@@ -1,0 +1,72 @@
+{
+  "paths": {
+    "camus_root": "data/camus",
+    "prepared_camus": "prepared/camus",
+    "external_csv": "data/hmc_qu/external_manifest.csv",
+    "prepared_external": "prepared/hmc_qu",
+    "runs": "runs",
+    "results": "results"
+  },
+  "data": {
+    "label_map_confirmed": false,
+    "label_map": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3
+    },
+    "split_file": "data/splits/camus_patients.json",
+    "validation_patients": 50,
+    "split_seed": 20261029,
+    "intermediate_frames_per_sequence": 8,
+    "external_target": null
+  },
+  "training": {
+    "image_size": 256,
+    "base_channels": 32,
+    "graph_grid": 16,
+    "graph_dim": 128,
+    "graph_heads": 4,
+    "micro_batch": 2,
+    "effective_batch": 4,
+    "amp": true,
+    "cpu_threads": 4,
+    "cache_items": 32,
+    "epochs": 200,
+    "steps_per_epoch": 100,
+    "warmup_epochs": 20,
+    "ramp_epochs": 20,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "auxiliary_weight": 0.1,
+    "ema_decay": 0.99,
+    "confidence_threshold": 0.9,
+    "anatomy_threshold": 0.5,
+    "split_seed": 20261029,
+    "log_every_updates": 10,
+    "checkpoint_every_updates": 25
+  },
+  "suite": {
+    "seeds": [
+      17,
+      29,
+      43
+    ],
+    "methods_25_percent": [
+      "unet",
+      "mean_teacher",
+      "segformer_b0",
+      "graph_supervised",
+      "graph_confidence",
+      "graph_gaussian",
+      "aces_view_agnostic",
+      "aces"
+    ],
+    "methods_100_percent": [
+      "unet",
+      "mean_teacher",
+      "aces"
+    ],
+    "save_predictions": true
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "status": "not_run",
+  "reason": "HMC-QU requires actual images, references, verified patient/frame mapping and target definition"
+}

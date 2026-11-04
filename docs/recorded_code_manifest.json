@@ -1,0 +1,224 @@
+{
+  "artifact": "ACES_RTX5060_OneClick",
+  "download_fix_version": "1.2",
+  "post_training_fix_version": "1.3",
+  "segformer_fix_version": "1.4",
+  "automated_tests": 64,
+  "source_files": [
+    {
+      "path": "CHECK_GPU.bat",
+      "bytes": 222,
+      "sha256": "d4e964b5eaac050b4db8a481310e0ab7331b9e18dd7b011752ce38e58626d79a"
+    },
+    {
+      "path": "DOWNLOAD_CAMUS.bat",
+      "bytes": 370,
+      "sha256": "8839969c7f5800a96ba4f129c52d066f6b4bd04efc65cf4d549e8eef8e755089"
+    },
+    {
+      "path": "EVALUATE_ONLY.bat",
+      "bytes": 224,
+      "sha256": "9a1451fc5098470a85ded239bd2de329a2155f332dd959e2fb27f3860ee5ae36"
+    },
+    {
+      "path": "PREPARE_DATA.bat",
+      "bytes": 223,
+      "sha256": "e9b99e29524374fb78f752739510ac204d8094734586668e60490eb1a9685b34"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2351,
+      "sha256": "5f353ba364449d4266a5bb98c770a102c33f202dab43ffddf7f0d9d8a333f628"
+    },
+    {
+      "path": "RUN_ALL.bat",
+      "bytes": 221,
+      "sha256": "b1d9422c04e69293823cb7dab72de7c50258a552cc6dda5c0a0714c6c26b4948"
+    },
+    {
+      "path": "RUN_TESTS.bat",
+      "bytes": 185,
+      "sha256": "78a61584cc4df22aa227a6ab74c5afd72acf6ea1c1b7e5c63efe5fec6e9011dd"
+    },
+    {
+      "path": "SMOKE_TEST.bat",
+      "bytes": 221,
+      "sha256": "868af9eb17ea75c9933da42e1206f9782d24c217c767588e8aec0820b4f4beeb"
+    },
+    {
+      "path": "START.bat",
+      "bytes": 220,
+      "sha256": "4d554441785531c306318b02d7b10f1b90e96f5b52e26885c1a02d70f292b694"
+    },
+    {
+      "path": "SegFormer修复说明.md",
+      "bytes": 3286,
+      "sha256": "de98171a835bc5467ea18b09646710d16537be9272496aec8ca3f37c89d2a47d"
+    },
+    {
+      "path": "aces/__init__.py",
+      "bytes": 103,
+      "sha256": "196175f48aef05c45226123be2cfe83a92c92094d40c48b53500b55c5dad9d3c"
+    },
+    {
+      "path": "aces/cli.py",
+      "bytes": 4410,
+      "sha256": "683d864e87b0d59c603351a77e21c46514a8ad60e8e815e809ecfa70ad6d5b3b"
+    },
+    {
+      "path": "aces/data.py",
+      "bytes": 24628,
+      "sha256": "39d6599d37b360e126ab73ec872c439c50cd82563753a06fadf98db4ad6b7893"
+    },
+    {
+      "path": "aces/engine.py",
+      "bytes": 26715,
+      "sha256": "dc3d2020dc4319dae99c20f7124da9a5f2ab3f2cafd030a5347483b097d16690"
+    },
+    {
+      "path": "aces/losses.py",
+      "bytes": 3647,
+      "sha256": "a2004229419ac5062f36c441bcd4bd5860c1baa72f358743a288c1bb597f8b29"
+    },
+    {
+      "path": "aces/metrics.py",
+      "bytes": 6897,
+      "sha256": "528f348f82227a56d998b2996a0a4efded1ae816f3a3de5c8f3353decded31e8"
+    },
+    {
+      "path": "aces/models.py",
+      "bytes": 6057,
+      "sha256": "cbe97929efb1e5030333bd394386425fbb109cbc2643d86d7ee88e2e2d6c230d"
+    },
+    {
+      "path": "aces/numerics.py",
+      "bytes": 3559,
+      "sha256": "ad22e2acdde8659ffa381f126b12ee6ed20af8ec6acfe37b480f7442497218e2"
+    },
+    {
+      "path": "aces/prior.py",
+      "bytes": 3784,
+      "sha256": "030942d85308460c8046ba85164efc31bf049bb1da5dcbb2722b3e1fb9160c2d"
+    },
+    {
+      "path": "aces/report.py",
+      "bytes": 4867,
+      "sha256": "f6ebc1215204134d1b70b90ed8aa4f19502fae44208e1f90dbd825ef7c9ee866"
+    },
+    {
+      "path": "aces/synthetic.py",
+      "bytes": 1805,
+      "sha256": "c5322c3a82a0a7ade75bce78ce740e69cd41ccca86fe34ad0adc3054df14963f"
+    },
+    {
+      "path": "aces/utils.py",
+      "bytes": 3861,
+      "sha256": "843d336aefe78fe7255ad1b147003425942aaf8818799061cd9bf4ff63d0141b"
+    },
+    {
+      "path": "bootstrap.ps1",
+      "bytes": 5150,
+      "sha256": "3ffa6427ce89f8686bc3790bf4ca380a235ee18995c236ad7b732e048df4600d"
+    },
+    {
+      "path": "data/camus/放置数据.txt",
+      "bytes": 335,
+      "sha256": "bfd3827a7b97f63dad576857d3c18f5bc684bb1b4ef69a6a7084e3646b5334d2"
+    },
+    {
+      "path": "data/hmc_qu/external_manifest.template.csv",
+      "bytes": 295,
+      "sha256": "6748a55dccf454cfb883e9b84afb57f70c945d05050ac4d0e394d1d20b121a05"
+    },
+    {
+      "path": "data/splits.template.json",
+      "bytes": 45,
+      "sha256": "4879196fcc1e5dab77dc87a7feebdb6f3bc3956d6ad1d96af7668b93bbacc7f4"
+    },
+    {
+      "path": "docs/APNet状态.md",
+      "bytes": 1271,
+      "sha256": "bff01fbfd56866cb15970e9f7de04a5c31f548c3e0fa272e14df349894d27331"
+    },
+    {
+      "path": "docs/HMC_QU映射说明.md",
+      "bytes": 2512,
+      "sha256": "46bbce2bc676de1cdaf044a1e4ed20afb74eda1d016ceec1fa6b19993ec45b14"
+    },
+    {
+      "path": "docs/test_summary.json",
+      "bytes": 9892,
+      "sha256": "c4d6ac84c0b9ad735a8a03e492e409d944d3891d1e056dad20384cb097ffddd2"
+    },
+    {
+      "path": "docs/实现与方案对应.md",
+      "bytes": 2993,
+      "sha256": "4b9227de0206bb35a19f4bee00803933f476994ecd59cd7f1ec4bd6ef8859924"
+    },
+    {
+      "path": "docs/测试记录.md",
+      "bytes": 5552,
+      "sha256": "cf795e4cb8770751a53f23b2dcec81bed177509255289172ab4d8bcec390b708"
+    },
+    {
+      "path": "download_public.py",
+      "bytes": 22105,
+      "sha256": "de7777f09cb28637b6b05c172baeebb5d2eaee3c273c0cf8b5fa340a4a1b7033"
+    },
+    {
+      "path": "handoff.md",
+      "bytes": 2744,
+      "sha256": "a7f7470e9c13a47ba11f0f1504485510e5edecad0ce234deef91d3b03afc5049"
+    },
+    {
+      "path": "launcher.py",
+      "bytes": 10512,
+      "sha256": "24168af20c5fc04cbcb5782560978498e1bbae4df37ddc34bb6aff9a69c37f86"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 188,
+      "sha256": "34527cd1824e89a8dc501f54103e1dc0eabe592714dd40be5ca22a3a5f4b3e3f"
+    },
+    {
+      "path": "settings.json",
+      "bytes": 1389,
+      "sha256": "c30f6c29a4719600dc43fa79c8bc546a0b6e6e62a2d133806dcdd959e4f4a8e8"
+    },
+    {
+      "path": "tests/test_core.py",
+      "bytes": 17756,
+      "sha256": "ce77eaf38e77844191399a3d3c63259077016be62cde97e11a379e890ac76827"
+    },
+    {
+      "path": "tests/test_download.py",
+      "bytes": 18804,
+      "sha256": "699f78bc1f29b1139da95acfd26ac9f544a3138a2aa287d47178272f088b4b38"
+    },
+    {
+      "path": "tests/test_numerics.py",
+      "bytes": 11607,
+      "sha256": "837737d93faee160485c968677d07efdda2221caa87a00215aa8f5ab98d286a4"
+    },
+    {
+      "path": "tests/test_post_training.py",
+      "bytes": 8216,
+      "sha256": "886551e344eafec5f208dbf29a3718e88c6eec869c8eb22b389c304c851de782"
+    },
+    {
+      "path": "下载修复说明.md",
+      "bytes": 2185,
+      "sha256": "5af1b1534a702067ae2d214fa295ad31f4fd6cf0e8d238110787304148d2bf1b"
+    },
+    {
+      "path": "开始使用.md",
+      "bytes": 9534,
+      "sha256": "f5e6294862a355a99eb026164f792796f8d76fb99c109633edf600b51512f3a4"
+    },
+    {
+      "path": "训练后修复说明.md",
+      "bytes": 1886,
+      "sha256": "32986aad23da9d98910135ce40d38191656487d415fd3f3a865268021f52e3ee"
+    }
+  ]
+}

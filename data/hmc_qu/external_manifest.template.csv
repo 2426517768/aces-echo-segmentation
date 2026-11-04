@@ -1,0 +1,2 @@
+patient_id,recording_id,image,mask,image_frame,mask_frame,image_key,mask_key,image_frame_axis,mask_frame_axis,foreground_value,image_grid_transform,alignment_basis,spacing_x,spacing_y,phase,confirmed
+FILL_REAL_PATIENT_ID,FILL_RECORDING_ID,FILL_IMAGE_PATH,FILL_MASK_PATH,,,,,0,0,1,none,,,,,false
