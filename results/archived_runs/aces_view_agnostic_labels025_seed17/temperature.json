@@ -1,0 +1,11 @@
+{
+  "temperature": 1.9971821308135986,
+  "source_split": "CAMUS_validation_only",
+  "source_manifest_hash": "e8fb5d3a3bda28c4c5b40716d99a1c8cac581f4739e02b99763c0dcc153cecc2",
+  "sampled_pixels": 409600,
+  "sampling": "fixed seed; equal patients, equal frames; capped pixels per patient",
+  "pixels_per_patient_cap": 8192,
+  "checkpoint_method": "aces_view_agnostic",
+  "checkpoint_epoch": 85,
+  "checkpoint_sha256": "54bec454174e64a4bc5547d14ccebe61cd7df00d8431cc84d9bff9710220dcaf"
+}
