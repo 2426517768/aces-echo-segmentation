@@ -1,0 +1,11 @@
+{
+  "status": "completed",
+  "contract_hash": "4652ba898d96295333bdb941d224d1033a84e42faec9636c96d03d123c6e4ad6",
+  "elapsed_seconds": 4521.7568290999625,
+  "validation_best": 0.9116180763862656,
+  "peak_cuda_memory_gib": 0.5748944282531738,
+  "parameter_count": 7851176,
+  "synthetic": false,
+  "micro_batch": 2,
+  "effective_batch": 4
+}
